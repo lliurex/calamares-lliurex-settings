@@ -9,6 +9,6 @@ Homepage: http://lliurex.net
 
 Package: calamares-settings-lliurex
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, calamares, calamares-copykernel
+Depends: ${shlibs:Depends}, ${misc:Depends}, calamares, calamares-copykernel, calamares-ubiquity-fixes
 Description: LliureX settings for calamares
   All configure files and branding for calamares installer

@@ -1,3 +1,9 @@
+calamares-settings-lliurex (0.2.1) bionic; urgency=medium
+
+  * change control priority
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 02 Apr 2019 13:12:18 +0200
+
 calamares-settings-lliurex (0.2) bionic; urgency=medium
 
   * Added ubiquity-fixes dependency

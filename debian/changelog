@@ -1,3 +1,9 @@
+calamares-settings-lliurex (0.3) bionic; urgency=medium
+
+  * Add new configs
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 11 Apr 2019 14:07:49 +0200
+
 calamares-settings-lliurex (0.2.1) bionic; urgency=medium
 
   * change control priority

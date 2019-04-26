@@ -1,3 +1,9 @@
+calamares-settings-lliurex (0.5) bionic; urgency=high
+
+  * Updated packages.conf
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 26 Apr 2019 14:39:26 +0200
+
 calamares-settings-lliurex (0.4) bionic; urgency=high
 
   * Update configs

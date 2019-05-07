@@ -1,3 +1,9 @@
+calamares-settings-lliurex (0.6) bionic; urgency=medium
+
+  * Add swap partition
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 07 May 2019 13:09:12 +0200
+
 calamares-settings-lliurex (0.5) bionic; urgency=high
 
   * Updated packages.conf

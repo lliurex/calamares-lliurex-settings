@@ -1,3 +1,10 @@
+calamares-settings-lliurex (0.9) bionic; urgency=medium
+
+  * Add system-addons plugin
+  * Include extrapackages exec step
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 03 Jun 2019 17:30:53 +0200
+
 calamares-settings-lliurex (0.8) bionic; urgency=medium
 
   * Add dependency with extrapackages

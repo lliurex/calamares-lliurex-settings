@@ -1,3 +1,9 @@
+calamares-settings-lliurex (0.9.1) bionic; urgency=medium
+
+  * Rename dependecy
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 03 Jun 2019 18:21:28 +0200
+
 calamares-settings-lliurex (0.9) bionic; urgency=medium
 
   * Add system-addons plugin

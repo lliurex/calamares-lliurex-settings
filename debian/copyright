@@ -1,9 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: calamares-settings-lliurex
-Source: https://gitlab.com/gaticos/calamares-settings-lliurex.git
+Source: https://github.com/lliurex/calamares-lliurex-settings
 
 Files: *
-Copyright: 2018 Raul Rodrigo Segura <raurodse@gmail.com>
+Copyright: 2021 Raul Rodrigo Segura <raurodse@gmail.com>
 License: GPL-3.0+
 
 License: GPL-3.0+

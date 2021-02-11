@@ -2,13 +2,14 @@ Source: calamares-settings-lliurex
 Section: devel
 Priority: optional
 Maintainer: Equipo LliureX <lliurex@gva.es> 
-Build-Depends: debhelper (>= 10)
-Standards-Version: 4.1.2
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
 Homepage: http://lliurex.net
-#Vcs-Git: https://gitlab.com/gaticos/calamares-settings-lliurex.git
+#Vcs-Git: https://github.com/lliurex/calamares-settings-lliurex.git
 
 Package: calamares-settings-lliurex
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, calamares, calamares-copykernel, calamares-ubiquity-fixes, calamares-extrapackages, calamares-system-addons-module, calamares-desktop-layout
+#Depends: ${shlibs:Depends}, ${misc:Depends}, calamares, calamares-copykernel, calamares-ubiquity-fixes, calamares-extrapackages, calamares-system-addons-module, calamares-desktop-layout
+Depends: ${shlibs:Depends}, ${misc:Depends}, calamares 
 Description: LliureX settings for calamares
   All configure files and branding for calamares installer

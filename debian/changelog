@@ -1,3 +1,9 @@
+calamares-settings-lliurex (0.2.3) focal; urgency=medium
+
+  * Install calamares scripts
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 16 Feb 2021 17:21:31 +0100
+
 calamares-settings-lliurex (0.2.2) focal; urgency=medium
 
   * Remove old default groups for user

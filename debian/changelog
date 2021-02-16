@@ -1,3 +1,9 @@
+calamares-settings-lliurex (0.2.4) focal; urgency=medium
+
+  * Remove lliurex-live-fixes to remove list
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 16 Feb 2021 19:39:33 +0100
+
 calamares-settings-lliurex (0.2.3) focal; urgency=medium
 
   * Install calamares scripts

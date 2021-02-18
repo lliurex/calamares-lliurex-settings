@@ -1,3 +1,9 @@
+calamares-settings-lliurex (0.2.6) focal; urgency=medium
+
+  * Bug: grub settings did not copy to ubuntu folder on efi partition
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 18 Feb 2021 12:16:45 +0100
+
 calamares-settings-lliurex (0.2.5) focal; urgency=medium
 
   * Test neon settings

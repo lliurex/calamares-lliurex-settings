@@ -1,4 +1,4 @@
-Source: calamares-settings-lliurex
+Source: calamares-lliurex-settings
 Section: devel
 Priority: optional
 Maintainer: Equipo LliureX <lliurex@gva.es> 
@@ -7,7 +7,7 @@ Standards-Version: 4.4.1
 Homepage: http://lliurex.net
 #Vcs-Git: https://github.com/lliurex/calamares-settings-lliurex.git
 
-Package: calamares-settings-lliurex
+Package: calamares-lliurex-settings
 Architecture: all
 #Depends: ${shlibs:Depends}, ${misc:Depends}, calamares, calamares-copykernel, calamares-ubiquity-fixes, calamares-extrapackages, calamares-system-addons-module, calamares-desktop-layout
 Depends: ${shlibs:Depends}, ${misc:Depends}, calamares 

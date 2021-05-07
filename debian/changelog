@@ -1,4 +1,4 @@
-calamares-settings-lliurex (0.3.1) focal; urgency=medium
+calamares-lliurex-settings (0.3.1) focal; urgency=medium
 
   * Update config
 
@@ -10,49 +10,49 @@ calamares-lliurex-settings (0.3) focal; urgency=medium
 
  -- Live session user <lliurex@lliurex>  Thu, 06 May 2021 10:28:26 +0000
 
-calamares-settings-lliurex (0.2.6) focal; urgency=medium
+calamares-lliurex-settings (0.2.6) focal; urgency=medium
 
   * Bug: grub settings did not copy to ubuntu folder on efi partition
 
  -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 18 Feb 2021 12:16:45 +0100
 
-calamares-settings-lliurex (0.2.5) focal; urgency=medium
+calamares-lliurex-settings (0.2.5) focal; urgency=medium
 
   * Test neon settings
 
  -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 17 Feb 2021 17:36:56 +0100
 
-calamares-settings-lliurex (0.2.4) focal; urgency=medium
+calamares-lliurex-settings (0.2.4) focal; urgency=medium
 
   * Remove lliurex-live-fixes to remove list
 
  -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 16 Feb 2021 19:39:33 +0100
 
-calamares-settings-lliurex (0.2.3) focal; urgency=medium
+calamares-lliurex-settings (0.2.3) focal; urgency=medium
 
   * Install calamares scripts
 
  -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 16 Feb 2021 17:21:31 +0100
 
-calamares-settings-lliurex (0.2.2) focal; urgency=medium
+calamares-lliurex-settings (0.2.2) focal; urgency=medium
 
   * Remove old default groups for user
 
  -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 16 Feb 2021 13:18:32 +0100
 
-calamares-settings-lliurex (0.2.1) focal; urgency=medium
+calamares-lliurex-settings (0.2.1) focal; urgency=medium
 
   * fix settings 
 
  -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 16 Feb 2021 11:38:27 +0100
 
-calamares-settings-lliurex (0.2) focal; urgency=medium
+calamares-lliurex-settings (0.2) focal; urgency=medium
 
   * Update conf 
 
  -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 12 Feb 2021 11:25:19 +0100
 
-calamares-settings-lliurex (0.1) focal; urgency=medium
+calamares-lliurex-settings (0.1) focal; urgency=medium
 
   * First focal version
 

@@ -1,3 +1,9 @@
+calamares-settings-lliurex (0.2.7) focal; urgency=medium
+
+  * Update config
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 07 May 2021 18:03:18 +0200
+
 calamares-settings-lliurex (0.2.6) focal; urgency=medium
 
   * Bug: grub settings did not copy to ubuntu folder on efi partition

@@ -1,8 +1,14 @@
-calamares-settings-lliurex (0.2.7) focal; urgency=medium
+calamares-settings-lliurex (0.3.1) focal; urgency=medium
 
   * Update config
 
  -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 07 May 2021 18:03:18 +0200
+
+calamares-lliurex-settings (0.3) focal; urgency=medium
+
+  * Rename package
+
+ -- Live session user <lliurex@lliurex>  Thu, 06 May 2021 10:28:26 +0000
 
 calamares-settings-lliurex (0.2.6) focal; urgency=medium
 

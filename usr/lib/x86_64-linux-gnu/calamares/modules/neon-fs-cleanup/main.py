@@ -12,7 +12,7 @@ def run():
     """ Cleaning up filesystem tools (must run after packages cleanup) """
 
     optional_filesystems = {
-        'btrfs': 'btrfs-tools',
+        'btrfs': 'btrfs-progs',
         'jfs': 'jfsutils',
         'reiserfs': 'reiserfsprogs',
         'xfs': 'xfsprogs'

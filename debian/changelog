@@ -1,4 +1,4 @@
-calamares-lliurex-settings (0.3.2) bionic; urgency=medium
+calamares-lliurex-settings (0.3.2) focal; urgency=medium
 
   * Change package to remove on btrfs
 

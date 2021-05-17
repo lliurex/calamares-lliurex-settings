@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.3.3) focal; urgency=medium
+
+  * Remove layoutselector temporally
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 17 May 2021 16:03:29 +0200
+
 calamares-lliurex-settings (0.3.2) focal; urgency=medium
 
   * Change package to remove on btrfs

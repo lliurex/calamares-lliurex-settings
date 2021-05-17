@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.3.4) focal; urgency=medium
+
+  * Dummy upgrade
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 17 May 2021 16:05:37 +0200
+
 calamares-lliurex-settings (0.3.3) focal; urgency=medium
 
   * Remove layoutselector temporally

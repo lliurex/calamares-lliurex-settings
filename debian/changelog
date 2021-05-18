@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.3.5) focal; urgency=medium
+
+  * Remove option to install
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 18 May 2021 11:29:33 +0200
+
 calamares-lliurex-settings (0.3.4) focal; urgency=medium
 
   * Dummy upgrade

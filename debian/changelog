@@ -1,3 +1,10 @@
+calamares-lliurex-settings (0.3.6) focal; urgency=medium
+
+  * Install Shim because of shim-signed can't install from apt 
+  * Remove cdrom
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 19 May 2021 15:39:40 +0200
+
 calamares-lliurex-settings (0.3.5) focal; urgency=medium
 
   * Remove option to install

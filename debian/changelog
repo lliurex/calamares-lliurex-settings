@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.3.6.1) focal; urgency=medium
+
+  * Fix write file
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 19 May 2021 16:04:21 +0200
+
 calamares-lliurex-settings (0.3.6) focal; urgency=medium
 
   * Install Shim because of shim-signed can't install from apt 

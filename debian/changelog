@@ -1,3 +1,10 @@
+calamares-lliurex-settings (0.3.7) focal; urgency=medium
+
+  * Add lliurexactions
+  * Change lliurex 19 to lliurex 21 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 21 May 2021 14:01:42 +0200
+
 calamares-lliurex-settings (0.3.6.1) focal; urgency=medium
 
   * Fix write file

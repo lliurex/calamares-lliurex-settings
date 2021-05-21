@@ -4,11 +4,11 @@ componentName: lliurex
 strings:
     productName:         LliureX
     shortProductName:    LliureX
-    version:             19
-    shortVersion:        bionic
+    version:             21
+    shortVersion:        focal
     versionedName:       LliureX
-    shortVersionedName:  LliureX 19
-    bootloaderEntryName: LliureX 19
+    shortVersionedName:  LliureX 21
+    bootloaderEntryName: LliureX 21
     productUrl:          https://lliurex.net
     supportUrl:          http://mestreacasa.gva.es/web/lliurex/forums
     knownIssuesUrl:      https://wiki.ubuntu.com/BionicBeaver/Beta1/LubuntuNext#Known_Problems

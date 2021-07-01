@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.3.8.1) focal; urgency=medium
+
+  * Fix some typos in appselector
+
+ -- Juanma1980 <juanma1980@gmail.com>  Thu, 01 Jul 2021 11:10:07 +0200
+
 calamares-lliurex-settings (0.3.8) focal; urgency=medium
 
   * Add Lumi installer 

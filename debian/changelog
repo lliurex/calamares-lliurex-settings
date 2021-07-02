@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.3.9) focal; urgency=medium
+
+  * Patch neon script to generate locale
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 02 Jul 2021 16:10:24 +0200
+
 calamares-lliurex-settings (0.3.8) focal; urgency=medium
 
   * Add Lumi installer 

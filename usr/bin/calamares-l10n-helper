@@ -13,6 +13,13 @@ set -ex
 
 . /etc/default/locale
 
+rc=$( echo $LANG | grep "@valencia" )
+
+if [ "$rc" != "" ]; then
+	LANG="ca_ES@valencia"
+fi
+
+
 echo $LANG
 echo $LC_TIME
 without_ext=$(echo $LANG | cut -d. -f1)

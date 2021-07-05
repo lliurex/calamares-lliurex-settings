@@ -1,3 +1,10 @@
+calamares-lliurex-settings (0.3.10) focal; urgency=medium
+
+  * Update welcome image
+  * Add lumi to correct path
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 05 Jul 2021 16:03:51 +0200
+
 calamares-lliurex-settings (0.3.9) focal; urgency=medium
 
   * Patch neon script to generate locale

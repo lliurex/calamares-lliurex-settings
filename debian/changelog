@@ -1,3 +1,10 @@
+calamares-lliurex-settings (0.3.11) focal; urgency=medium
+
+  * Fix language bug
+  * Fix remove live packages (live-build)
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 08 Jul 2021 00:46:29 +0200
+
 calamares-lliurex-settings (0.3.10) focal; urgency=medium
 
   * Update welcome image

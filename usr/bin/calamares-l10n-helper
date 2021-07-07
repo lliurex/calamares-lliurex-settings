@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # SPDX-FileCopyrightText: 2018-2019 Harald Sitter <sitter@kde.org>
 # SPDX-License-Identifier: GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 
@@ -13,9 +13,7 @@ set -ex
 
 . /etc/default/locale
 
-rc=$( echo $LANG | grep "@valencia" )
-
-if [ "$rc" != "" ]; then
+if [[ "$LANG" =~ "@valencia" ]]; then
 	LANG="ca_ES@valencia"
 fi
 

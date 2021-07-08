@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.4) focal; urgency=medium
+
+  * Add module to fix clients installation
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 08 Jul 2021 17:51:12 +0200
+
 calamares-lliurex-settings (0.3.11) focal; urgency=medium
 
   * Fix language bug

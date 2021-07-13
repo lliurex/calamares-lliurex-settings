@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.6) focal; urgency=medium
+
+  * Add casper to remove list
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 13 Jul 2021 15:47:34 +0200
+
 calamares-lliurex-settings (0.5) focal; urgency=medium
 
   * Remove live packages

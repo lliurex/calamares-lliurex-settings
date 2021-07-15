@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.7) focal; urgency=medium
+
+  * Remove not working buttons from welcome page
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 15 Jul 2021 15:54:09 +0200
+
 calamares-lliurex-settings (0.6) focal; urgency=medium
 
   * Add casper to remove list

@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.8) focal; urgency=medium
+
+  * Fix welcome config
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 21 Jul 2021 10:41:54 +0200
+
 calamares-lliurex-settings (0.7) focal; urgency=medium
 
   * Remove not working buttons from welcome page

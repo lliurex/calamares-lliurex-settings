@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.10) focal; urgency=medium
+
+  * add branding 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 23 Jul 2021 01:19:00 +0200
+
 calamares-lliurex-settings (0.9) focal; urgency=medium
 
   * Add layout selector

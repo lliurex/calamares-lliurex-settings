@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.9) focal; urgency=medium
+
+  * Add layout selector
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 22 Jul 2021 23:29:16 +0200
+
 calamares-lliurex-settings (0.8) focal; urgency=medium
 
   * Fix welcome config

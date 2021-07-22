@@ -1,3 +1,13 @@
+/* === This file is part of Calamares - <https://calamares.io> ===
+ *
+ *   SPDX-FileCopyrightText: 2015 Teo Mrnjavac <teo@kde.org>
+ *   SPDX-FileCopyrightText: 2018 Adriaan de Groot <groot@kde.org>
+ *   SPDX-License-Identifier: GPL-3.0-or-later
+ *
+ *   Calamares is Free Software: see the License-Identifier above.
+ *
+ */
+
 import QtQuick 2.0;
 import calamares.slideshow 1.0;
 
@@ -5,474 +15,109 @@ Presentation
 {
     id: presentation
 
+    function nextSlide() {
+        console.log("QML Component (default slideshow) Next slide");
+        presentation.goToNextSlide();
+    }
+
     Timer {
-        interval: 10000
-        running: true
+        id: advanceTimer
+        interval: 7000
+        running: presentation.activatedInCalamares
         repeat: true
-        onTriggered: presentation.goToNextSlide()
+        onTriggered: nextSlide()
     }
+
     Slide {
-        Image {
-            anchors.centerIn: parent
-            id: image1
-            x: 0
-            y: 0
-            width: 810
-            height: 485
-            source: "slide1.png"
-        }
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
 
+        Image {
+            id: welcome_background
+            source: "welcome_ubiquity.png"
+            fillMode: Image.Pad
+        }
         Text {
-            id: text1
-            x: 8
-            y: 185
-            width: 317
-            height: 50
-            color: "#00ffff"
-            text: qsTr("Get Support")
-            verticalAlignment: Text.AlignTop
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            font { family: "Ubuntu Light"; pixelSize: 24; weight: Font.Bold; capitalization: Font.AllUppercase }
-        }
-
-        Image {
-            id: image2
-            x: 110
-            y: 48
-            width: 96
-            height: 96
-            fillMode: Image.PreserveAspectFit
-            source: "slide-logo.png"
-        }
-
-        Text {
-            id: text2
-            x: 8
-            y: 261
-            width: 317
-            height: 124
-            color: "#ffffff"
-            text: qsTr("https://lubuntu.me")
-            font { family: "Ubuntu Light"; pixelSize: 16; weight: Font.Bold }
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            verticalAlignment: Text.AlignTop
-        }
-
-        Image {
-            id: image3
-            x: 119
-            y: 430
-            width: 96
-            height: 24
-            source: "lubuntu.png"
+            x:350
+            y:190
+            width:430
+            height:500
+            text: 
+                  qsTr("LliureX is an initiative driven by the Department of Education of Regional Government with the purpose of using free software ICTs in the Valencian Education System, so as to allow its users to enjoy a thoughtful and fine user experience.<br/>")+"<br/>"+
+                  qsTr("LliureX is a Custom Ubuntu GNU/Linux Distribution (CDD) intended as an operating system for educational institutions.")
+            wrapMode: Text.WordWrap
+            color:"#25313D"
+            font.family:"noto"
+            font.bold:true
+            font.pixelSize:16
         }
     }
+
     Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
         Image {
-            anchors.centerIn: parent
-            id: image1
-            x: 0
-            y: 0
-            width: 810
-            height: 485
-            source: "slide2.png"
+            id: finish_background
+            source: "finish_ubiquity.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:50
+            y:160
+            width:430
+            height:500
+            color: "#642e3e"
+            font.family:"noto"
+            font.pixelSize:24
+            font.bold:true
+            text: 
+                  qsTr("Getting Help")
+           
         }
 
         Text {
-            id: text1
-            x: 8
-            y: 185
-            width: 317
-            height: 50
-            color: "#00ffff"
-            text: qsTr("Your Mail")
-            verticalAlignment: Text.AlignTop
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            font { family: "Ubuntu Light"; pixelSize: 24; weight: Font.Bold; capitalization: Font.AllUppercase }
-        }
+            x:50
+            y:200
+            width:450
+            height:500
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:qsTr("<div><h4>")+
+            qsTr("<p>If you need help, you can contact us:</p>")+
+            qsTr("<ul><li>Using our webpage at Mestre a casa </li>")+
+            qsTr("<li>On the mailing list, subscribe on the page of LliureX project at GitHub.</li>")+
+            qsTr("<li>At our twitter account @lliurex at Twitter</li></ul>")+
+            qsTr("<div><p>The installation will finish soon. We hope you enjoy LliureX.</p></div></h4></div></div>")
 
-        Image {
-            id: image2
-            x: 110
-            y: 48
-            width: 96
-            height: 96
-            fillMode: Image.PreserveAspectFit
-            source: "slide-logo.png"
-        }
-
-        Text {
-            id: text2
-            x: 8
-            y: 261
-            width: 317
-            height: 124
-            color: "#ffffff"
-            text: qsTr("Managed by Trojitá")
-            font { family: "Ubuntu Light"; pixelSize: 16; weight: Font.Bold; capitalization: Font.AllUppercase }
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            verticalAlignment: Text.AlignTop
-        }
-
-        Image {
-            id: image3
-            x: 119
-            y: 430
-            width: 96
-            height: 24
-            source: "lubuntu.png"
+                  
+           
         }
     }
-    Slide {
-        Image {
-            anchors.centerIn: parent
-            id: image1
-            x: 0
-            y: 0
-            width: 810
-            height: 485
-            source: "slide3.png"
-        }
 
-        Text {
-            id: text1
-            x: 8
-            y: 185
-            width: 317
-            height: 50
-            color: "#00ffff"
-            text: qsTr("SMPlayer")
-            verticalAlignment: Text.AlignTop
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            font { family: "Ubuntu Light"; pixelSize: 24; weight: Font.Bold; capitalization: Font.AllUppercase }
-        }
 
-        Image {
-            id: image2
-            x: 110
-            y: 48
-            width: 96
-            height: 96
-            fillMode: Image.PreserveAspectFit
-            source: "slide-logo.png"
-        }
-
-        Text {
-            id: text2
-            x: 8
-            y: 261
-            width: 317
-            height: 124
-            color: "#ffffff"
-            text: qsTr("To Play All of Your Movies")
-            font { family: "Ubuntu Light"; pixelSize: 16; weight: Font.Bold; capitalization: Font.AllUppercase }
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            verticalAlignment: Text.AlignTop
-        }
-
-        Image {
-            id: image3
-            x: 119
-            y: 430
-            width: 96
-            height: 24
-            source: "lubuntu.png"
-        }
+    // When this slideshow is loaded as a V1 slideshow, only
+    // activatedInCalamares is set, which starts the timer (see above).
+    //
+    // In V2, also the onActivate() and onLeave() methods are called.
+    // These example functions log a message (and re-start the slides
+    // from the first).
+    function onActivate() {
+        console.log("QML Component (default slideshow) activated");
+        presentation.currentSlide = 0;
     }
-    Slide {
-        Image {
-            anchors.centerIn: parent
-            id: image1
-            x: 0
-            y: 0
-            width: 810
-            height: 485
-            source: "slide4.png"
-        }
 
-        Text {
-            id: text1
-            x: 8
-            y: 185
-            width: 317
-            height: 50
-            color: "#00ffff"
-            text: qsTr("LibreOffice")
-            verticalAlignment: Text.AlignTop
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            font { family: "Ubuntu Light"; pixelSize: 24; weight: Font.Bold; capitalization: Font.AllUppercase }
-        }
-
-        Image {
-            id: image2
-            x: 110
-            y: 48
-            width: 96
-            height: 96
-            fillMode: Image.PreserveAspectFit
-            source: "slide-logo.png"
-        }
-
-        Text {
-            id: text2
-            x: 8
-            y: 261
-            width: 317
-            height: 124
-            color: "#ffffff"
-            text: qsTr("Edits All Of Your Documents")
-            font { family: "Ubuntu Light"; pixelSize: 16; weight: Font.Bold; capitalization: Font.AllUppercase }
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            verticalAlignment: Text.AlignTop
-        }
-
-        Image {
-            id: image3
-            x: 119
-            y: 430
-            width: 96
-            height: 24
-            source: "lubuntu.png"
-        }
+    function onLeave() {
+        console.log("QML Component (default slideshow) deactivated");
     }
-    Slide {
-        Image {
-            anchors.centerIn: parent
-            id: image1
-            x: 0
-            y: 0
-            width: 810
-            height: 485
-            source: "slide5.png"
-        }
 
-        Text {
-            id: text1
-            x: 8
-            y: 185
-            width: 317
-            height: 50
-            color: "#00ffff"
-            text: qsTr("Pictures")
-            verticalAlignment: Text.AlignTop
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            font { family: "Ubuntu Light"; pixelSize: 24; weight: Font.Bold; capitalization: Font.AllUppercase }
-        }
-
-        Image {
-            id: image2
-            x: 110
-            y: 48
-            width: 96
-            height: 96
-            fillMode: Image.PreserveAspectFit
-            source: "slide-logo.png"
-        }
-
-        Text {
-            id: text2
-            x: 8
-            y: 261
-            width: 317
-            height: 124
-            color: "#ffffff"
-            text: qsTr("Viewed With Nomacs")
-            font { family: "Ubuntu Light"; pixelSize: 16; weight: Font.Bold; capitalization: Font.AllUppercase }
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            verticalAlignment: Text.AlignTop
-        }
-
-        Image {
-            id: image3
-            x: 119
-            y: 430
-            width: 96
-            height: 24
-            source: "lubuntu.png"
-        }
-    }
-    Slide {
-        Image {
-            anchors.centerIn: parent
-            id: image1
-            x: 0
-            y: 0
-            width: 810
-            height: 485
-            source: "slide6.png"
-        }
-
-        Text {
-            id: text1
-            x: 8
-            y: 185
-            width: 317
-            height: 50
-            color: "#00ffff"
-            text: qsTr("Have Fun!")
-            verticalAlignment: Text.AlignTop
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            font { family: "Ubuntu Light"; pixelSize: 24; weight: Font.Bold; capitalization: Font.AllUppercase }
-        }
-
-        Image {
-            id: image2
-            x: 110
-            y: 48
-            width: 96
-            height: 96
-            fillMode: Image.PreserveAspectFit
-            source: "slide-logo.png"
-        }
-
-        Text {
-            id: text2
-            x: 8
-            y: 261
-            width: 317
-            height: 124
-            color: "#ffffff"
-            text: qsTr("With the 2048 game")
-            font { family: "Ubuntu Light"; pixelSize: 16; weight: Font.Bold; capitalization: Font.AllUppercase }
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            verticalAlignment: Text.AlignTop
-        }
-
-        Image {
-            id: image3
-            x: 119
-            y: 430
-            width: 96
-            height: 24
-            source: "lubuntu.png"
-        }
-    }
-    Slide {
-        Image {
-            anchors.centerIn: parent
-            id: image1
-            x: 0
-            y: 0
-            width: 810
-            height: 485
-            source: "slide7.png"
-        }
-
-        Text {
-            id: text1
-            x: 8
-            y: 185
-            width: 317
-            height: 50
-            color: "#00ffff"
-            text: qsTr("IRC Chat")
-            verticalAlignment: Text.AlignTop
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            font { family: "Ubuntu Light"; pixelSize: 24; weight: Font.Bold; capitalization: Font.AllUppercase }
-        }
-
-        Image {
-            id: image2
-            x: 110
-            y: 48
-            width: 96
-            height: 96
-            fillMode: Image.PreserveAspectFit
-            source: "slide-logo.png"
-        }
-
-        Text {
-            id: text2
-            x: 8
-            y: 261
-            width: 317
-            height: 124
-            color: "#ffffff"
-            text: qsTr("With Quassel IRC")
-            font { family: "Ubuntu Light"; pixelSize: 16; weight: Font.Bold; capitalization: Font.AllUppercase }
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            verticalAlignment: Text.AlignTop
-        }
-
-        Image {
-            id: image3
-            x: 119
-            y: 430
-            width: 96
-            height: 24
-            source: "lubuntu.png"
-        }
-    }
-    Slide {
-        Image {
-            anchors.centerIn: parent
-            id: image1
-            x: 0
-            y: 0
-            width: 810
-            height: 485
-            source: "slide8.png"
-        }
-
-        Text {
-            id: text1
-            x: 8
-            y: 185
-            width: 317
-            height: 50
-            color: "#00ffff"
-            text: qsTr("View Your Documents")
-            verticalAlignment: Text.AlignTop
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            font { family: "Ubuntu Light"; pixelSize: 24; weight: Font.Bold; capitalization: Font.AllUppercase }
-        }
-
-        Image {
-            id: image2
-            x: 110
-            y: 48
-            width: 96
-            height: 96
-            fillMode: Image.PreserveAspectFit
-            source: "slide-logo.png"
-        }
-
-        Text {
-            id: text2
-            x: 8
-            y: 261
-            width: 317
-            height: 124
-            color: "#ffffff"
-            text: qsTr("With QPDFView")
-            font { family: "Ubuntu Light"; pixelSize: 16; weight: Font.Bold; capitalization: Font.AllUppercase }
-            horizontalAlignment: Text.AlignHCenter
-            textFormat: Text.AutoText
-            verticalAlignment: Text.AlignTop
-        }
-
-        Image {
-            id: image3
-            x: 119
-            y: 430
-            width: 96
-            height: 24
-            source: "lubuntu.png"
-        }
-    }
 }

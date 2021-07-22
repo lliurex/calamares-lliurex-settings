@@ -13,13 +13,18 @@ strings:
     supportUrl:          http://mestreacasa.gva.es/web/lliurex/forums
     knownIssuesUrl:      https://wiki.ubuntu.com/BionicBeaver/Beta1/LubuntuNext#Known_Problems
     releaseNotesUrl:     https://wiki.ubuntu.com/BionicBeaver/Beta1/LubuntuNext
-
+windowExpanding:    normal
+windowSize: 800px,520px
+windowPlacement: center
+sidebar: widget
+navigation: widget
 images:
     productLogo:         "logo.png"
     productIcon:         "icon.png"
     productWelcome:      "welcome.png"
 
 slideshow:               "show.qml"
+slideshowAPI: 2
 
 style:
    sidebarBackground:    "#2f343f"

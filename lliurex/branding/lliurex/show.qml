@@ -40,13 +40,14 @@ Presentation
             fillMode: Image.Pad
         }
         Text {
-            x:350
-            y:190
+            x:335
+            y:170
             width:430
-            height:500
+            height:510
             text: 
-                  qsTr("LliureX is an initiative driven by the Department of Education of Regional Government with the purpose of using free software ICTs in the Valencian Education System, so as to allow its users to enjoy a thoughtful and fine user experience.<br/>")+"<br/>"+
-                  qsTr("LliureX is a Custom Ubuntu GNU/Linux Distribution (CDD) intended as an operating system for educational institutions.")
+                  qsTr("LliureX is an initiative driven by the Department of Education of Regional Government with the purpose of using free software ICTs in the Valencian Education System, so as to allow its users to enjoy a thoughtful and fine user experience.<br/>")+
+                  qsTr("LliureX is a Custom Ubuntu GNU/Linux Distribution (CDD) intended as an operating system for educational institutions.")+"<br/><br/>"+
+                  qsTr("While LliureX is installed, this slideshow will show you around its main features.")
             wrapMode: Text.WordWrap
             color:"#25313D"
             font.family:"noto"
@@ -70,7 +71,7 @@ Presentation
         }
         Text {
             x:50
-            y:160
+            y:130
             width:430
             height:500
             color: "#642e3e"
@@ -84,7 +85,7 @@ Presentation
 
         Text {
             x:50
-            y:200
+            y:180
             width:450
             height:500
             wrapMode:Text.WordWrap
@@ -94,10 +95,10 @@ Presentation
             textFormat: Text.RichText
             text:qsTr("<div><h4>")+
             qsTr("<p>If you need help, you can contact us:</p>")+
-            qsTr("<ul><li>Using our webpage at Mestre a casa </li>")+
-            qsTr("<li>On the mailing list, subscribe on the page of LliureX project at GitHub.</li>")+
-            qsTr("<li>At our twitter account @lliurex at Twitter</li></ul>")+
-            qsTr("<div><p>The installation will finish soon. We hope you enjoy LliureX.</p></div></h4></div></div>")
+            qsTr("<ul><li>Using our forum webpage at Mestre a casa https://mestreacasa.gva.es/web/lliurex/forums</li>")+
+            qsTr("<li>Subscribe & collaborate with LliureX project at GitHub.</li>")+
+            qsTr("<li>At our Telegram account https://t.me/comunitat_lliurex</li></ul>")+
+            qsTr("<div><p>The installation will finish soon. We hope you enjoy LliureX 21.</p></div></h4></div></div>")
 
                   
            

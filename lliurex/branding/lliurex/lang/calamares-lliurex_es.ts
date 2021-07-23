@@ -19,37 +19,53 @@
         <translation>Mientras se instala LliureX 21, esta presentación te mostrará sus características principales.</translation>
     </message>
     <message>
-        <location filename="../show.qml" line="82"/>
+        <location filename="../show.qml" line="126"/>
         <source>Getting Help</source>
         <translation>Obtener ayuda</translation>
     </message>
     <message>
         <location filename="../show.qml" line="96"/>
+        <location filename="../show.qml" line="140"/>
         <source>&lt;div&gt;&lt;h4&gt;</source>
         <translation>&lt;div&gt;&lt;h4&gt;</translation>
     </message>
     <message>
+        <location filename="../show.qml" line="82"/>
+        <source>Bassed on KDE Neon</source>
+        <translation>Basado en KDE Neon</translation>
+    </message>
+    <message>
         <location filename="../show.qml" line="97"/>
+        <source>&lt;p&gt;LliureX develops its full potential from KDE NEON.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;LliureX desarrolla todo su potencial a partir de KDE NEON.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../show.qml" line="98"/>
+        <source>&lt;p&gt;In this way we have a very solid base such as that offered by Ubuntu LTS and a modern desktop that is constantly updated.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;De esta manera tenemos una base muy solida como es la que nos ofrece Ubuntu LTS y un escritorio moderno y en constante actualización.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../show.qml" line="141"/>
         <source>&lt;p&gt;If you need help, you can contact us:&lt;/p&gt;</source>
         <translation>&lt;p&gt;Si necesitas ayuda, puedes contactar con el equipo de LliureX:&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../show.qml" line="98"/>
+        <location filename="../show.qml" line="142"/>
         <source>&lt;ul&gt;&lt;li&gt;Using our forum webpage at Mestre a casa https://mestreacasa.gva.es/web/lliurex/forums&lt;/li&gt;</source>
         <translation>&lt;ul&gt;&lt;li&gt;Utiliza nuestro foro de Mestre a Casa https://mestreacasa.gva.es/web/lliurex/forums&lt;/li&gt;</translation>
     </message>
     <message>
-        <location filename="../show.qml" line="99"/>
+        <location filename="../show.qml" line="143"/>
         <source>&lt;li&gt;Subscribe &amp; collaborate with LliureX project at GitHub.&lt;/li&gt;</source>
         <translation>&lt;li&gt;Subscribete y colabora con nuestro proyecto en GitHub.&lt;/li&gt;</translation>
     </message>
     <message>
-        <location filename="../show.qml" line="100"/>
+        <location filename="../show.qml" line="144"/>
         <source>&lt;li&gt;At our Telegram account https://t.me/comunitat_lliurex&lt;/li&gt;&lt;/ul&gt;</source>
         <translation>&lt;li&gt;Unete a nuestro grupo de Telegram https://t.me/comunitat_lliurex&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../show.qml" line="101"/>
+        <location filename="../show.qml" line="145"/>
         <source>&lt;div&gt;&lt;p&gt;The installation will finish soon. We hope you enjoy LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</source>
         <translation>&lt;div&gt;&lt;p&gt;La instalación finalizará pronto. Esperamos que disfrutes de LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</translation>
     </message>

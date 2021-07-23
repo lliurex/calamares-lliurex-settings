@@ -56,6 +56,50 @@ Presentation
         }
     }
 
+     Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
+        Image {
+            id: kde_neon
+            source: "kde_neon.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:60
+            y:210
+            width:450
+            height:420
+            color: "#642e3e"
+            font.family:"noto"
+            font.pixelSize:24
+            font.bold:true
+            text: 
+                  qsTr("Bassed on KDE Neon")
+           
+        }
+
+        Text {
+            x:60
+            y:260
+            width:420
+            height:450
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:qsTr("<div><h4>")+
+            qsTr("<p>LliureX develops its full potential from KDE NEON.</p>")+
+            qsTr("<p>In this way we have a very solid base such as that offered by Ubuntu LTS and a modern desktop that is constantly updated.</p>")                  
+           
+        }
+    }
+
     Slide {
         x:0
         y:0
@@ -86,7 +130,7 @@ Presentation
         Text {
             x:50
             y:180
-            width:450
+            width:470
             height:500
             wrapMode:Text.WordWrap
             color: "#25313D"
@@ -104,6 +148,8 @@ Presentation
            
         }
     }
+
+   
 
 
     // When this slideshow is loaded as a V1 slideshow, only

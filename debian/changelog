@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.12) focal; urgency=medium
+
+  * Adding new slideshow 
+
+ -- Daniel Duran <daduve@gmail.com>  Fri, 23 Jul 2021 16:33:56 +0200
+
 calamares-lliurex-settings (0.11) focal; urgency=medium
 
   * New files to branding slideshow.

@@ -6,7 +6,7 @@
     <message>
         <location filename="../show.qml" line="48"/>
         <source>LliureX is an initiative driven by the Department of Education of Regional Government with the purpose of using free software ICTs in the Valencian Education System, so as to allow its users to enjoy a thoughtful and fine user experience.&lt;br/&gt;</source>
-        <translation>LliureX es una iniciativa impulsada per la Conselleria d&apos;Educació, Cultura i Esport de la Generalitat Valenciana per a utilitzar les TIC de programari lliure en el sistema educatiu valencià i d&apos;aquesta manera permetre als usuaris gaudir d&apos;una experiència agradable i senzilla.&lt;br/&gt;</translation>
+        <translation>LliureX és una iniciativa impulsada per la Conselleria d&apos;Educació, Cultura i Esport de la Generalitat Valenciana per a utilitzar les TIC de programari lliure en el sistema educatiu valencià i d&apos;aquesta manera permetre als usuaris gaudir d&apos;una experiència agradable i senzilla.&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../show.qml" line="49"/>
@@ -48,7 +48,7 @@
     <message>
         <location filename="../show.qml" line="82"/>
         <source>Bassed on KDE Neon</source>
-        <translation>Basats en KDE Neon</translation>
+        <translation>Basat en KDE Neon</translation>
     </message>
     <message>
         <location filename="../show.qml" line="97"/>
@@ -58,7 +58,7 @@
     <message>
         <location filename="../show.qml" line="98"/>
         <source>&lt;p&gt;In this way we have a very solid base such as that offered by Ubuntu LTS and a modern desktop that is constantly updated.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;D&apos;aquesta manera tenim una base molt solguda com és la que ens ofereix Ubuntu LTS i un escriptori modern i en constant actualització.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;D&apos;aquesta manera tenim una base molt sòlida com és la que ens ofereix Ubuntu LTS i un escriptori modern i en constant actualització.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../show.qml" line="126"/>
@@ -72,7 +72,7 @@
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;Desk model: Any computer can be a LliureX with all its advantages without the need to be in a classroom.&lt;/li&gt;</source>
-        <translation type="vanished">&lt;ul&gt;&lt;li&gt;Model escriptori: Qualsevol equip pot ser LliureX, amb tots els seus avantatges, sense necessitat d&apos;estar en una aula.&lt;/li&gt;</translation>
+        <translation type="vanished">&lt;ul&gt;&lt;li&gt;Model Escriptori: Qualsevol equip pot ser LliureX, amb tots els seus avantatges, sense necessitat d&apos;estar en una aula.&lt;/li&gt;</translation>
     </message>
     <message>
         <source>&lt;li&gt;Classroom model: Remote control, mobile profiles, LDAP validation ...&lt;/li&gt;</source>
@@ -95,7 +95,7 @@
     <message>
         <location filename="../show.qml" line="188"/>
         <source>&lt;li&gt;Subscribe &amp; collaborate with LliureX project at GitHub.&lt;/li&gt;</source>
-        <translation>&lt;li&gt;Subscriviu-vos  i col·laborar en la pàgina del projecte LliureX a GitHub.&lt;/li&gt;</translation>
+        <translation>&lt;li&gt;Subscriviu-vos i col·laboreu en la pàgina del projecte LliureX a GitHub.&lt;/li&gt;</translation>
     </message>
     <message>
         <location filename="../show.qml" line="189"/>
@@ -105,7 +105,7 @@
     <message>
         <location filename="../show.qml" line="190"/>
         <source>&lt;div&gt;&lt;p&gt;The installation will finish soon. We hope you enjoy LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</source>
-        <translation>&lt;div&gt;&lt;p&gt;La instal·lació finalitzarà prompte. Esperem que disfruteu de LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</translation>
+        <translation>&lt;div&gt;&lt;p&gt;La instal·lació finalitzarà prompte. Esperem que gaudiu de LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</translation>
     </message>
 </context>
 </TS>

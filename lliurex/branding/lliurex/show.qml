@@ -107,6 +107,51 @@ Presentation
         height:parent.height
 
         Image {
+            id: modelos_llx21
+            source: "modelos_llx21.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:180
+            y:170
+            width:480
+            height:420
+            color: "#642e3e"
+            font.family:"noto"
+            font.pixelSize:24
+            font.bold:true
+            text: 
+                  qsTr("Usage Models")
+           
+        }
+
+        Text {
+            x:180
+            y:210
+            width:440
+            height:450
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:qsTr("<div><h4>")+
+            qsTr("<p>Lliurex makes it easy to use with three different models:</p>")+
+            qsTr("<ul><li><font style='color:#642e3e'>Desk model:</font> Any computer can be a LliureX with all its advantages without the need to be in a classroom.</li>")+
+            qsTr("<li><font style='color:#642e3e'>Classroom model:</font>  Remote control, mobile profiles, LDAP validation ...</li>")+
+            qsTr("<li><font style='color:#642e3e'>Center model:</font>  All the previous advantages, in each independent classroom, but sharing the LDAP, mobile profiles, Mirror ...</li></ul></h4></div>")         
+        }
+    }
+
+    Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
+        Image {
             id: finish_background
             source: "finish_ubiquity.png"
             fillMode: Image.Pad

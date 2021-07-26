@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.14) focal; urgency=medium
+
+  * Adding usage models slideshow 
+
+ -- Daniel Duran <daduve@gmail.com>  Mon, 26 Jul 2021 13:43:27 +0200
+
 calamares-lliurex-settings (0.12) focal; urgency=medium
 
   * Adding new slideshow 

@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.16) focal; urgency=medium
+
+  * Adding catalan translation 
+
+ -- Daniel Duran <daduve@gmail.com>  Mon, 26 Jul 2021 16:10:31 +0200
+
 calamares-lliurex-settings (0.14) focal; urgency=medium
 
   * Adding usage models slideshow 

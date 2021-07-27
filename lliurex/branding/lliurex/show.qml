@@ -370,6 +370,53 @@ Presentation
     }
 
 
+    Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
+        Image {
+            id: print3d_llx21
+            source: "print3d_llx21.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:60
+            y:170
+            width:480
+            height:420
+            color: "#642e3e"
+            font.family:"noto"
+            font.pixelSize:24
+            font.bold:true
+            text: 
+                  qsTr("3D Print")
+           
+        }
+
+        Text {
+            x:60
+            y:210
+            width:440
+            height:450
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:"<div><h4>"+"<p>"+
+            qsTr("In lliurex 21 it will be easier for you to work with 3D printers. Thanks to our zomando you can have the most famous slicer tools at your fingertips:")+"</p>"+
+            "<ul><li>"+qsTr("Slic3r.")+"</li>"+
+            "<li>"+qsTr("Ultimaker Cura.")+"</li>"+
+            "<li>"+qsTr("PrusaSlicer.")+"</li></ul>"+
+            "</h4></div>"
+        }
+    }
+
+
 
     Slide {
         x:0

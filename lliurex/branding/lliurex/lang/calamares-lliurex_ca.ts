@@ -139,5 +139,33 @@
         <source>Unlike all other H5P systems, Lumi does not require Moodle, WordPress, or Drupal. You can simply create interactive content and share it with your students by exporting it as an HTML file and uploading it to Aules.</source>
         <translation>A diferència de tots els altres sistemes H5P, Lumi no requereix Moodle, WordPress o Drupal. Simplement pots crear contingut interactiu i compartir-ho amb els teus alumnes exportant-ho com un arxiu HTML i pujar-lo a Aules.</translation>
     </message>
+    <message>
+        <source>Lliurex Edition Studio</source>
+        <translation>Lliurex Edition Studio</translation>
+    </message>
+    <message>
+        <source>We put at your disposal all the necessary resources to generate multimedia didactic material:</source>
+        <translation>Posem al teu abast tots els recursos necessaris per a generar material didàctic multimèdia:</translation>
+    </message>
+    <message>
+        <source>Audio editors, Audacity, VLC.</source>
+        <translation>Editors d&apos;àudio, Audacity, VLC.</translation>
+    </message>
+    <message>
+        <source>Video editors, Cinelerra, OBS Studio, Shotcut...</source>
+        <translation>Editors de vídeo, Cinelerra, OBS Studio, Shotcut...</translation>
+    </message>
+    <message>
+        <source>Format converters, Handbrake, Selena Media Converter.</source>
+        <translation>Convertidors de format, Handbrake, Selena Media Converter.</translation>
+    </message>
+    <message>
+        <source>All necessary codecs.</source>
+        <translation>Tots els còdecs necessaris.</translation>
+    </message>
+    <message>
+        <source>With LliureX you will have a multimedia studio.</source>
+        <translation>Amb LliureX tindràs un estudi multimèdia.</translation>
+    </message>
 </context>
 </TS>

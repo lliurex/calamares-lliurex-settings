@@ -284,6 +284,50 @@ Presentation
         height:parent.height
 
         Image {
+            id: lumi_llx21
+            source: "lumi_llx21.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:260
+            y:170
+            width:480
+            height:420
+            color: "#642e3e"
+            font.family:"noto"
+            font.pixelSize:24
+            font.bold:true
+            text: 
+                  qsTr("LUMI Interactive Content with H5P")
+           
+        }
+
+        Text {
+            x:260
+            y:210
+            width:440
+            height:450
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:"<div><h4>"+"<p>"+
+            qsTr("You can create, edit and view interactive HTML elements (H5P packages) in your desktop environment.")+"</p>"+
+            "<p>"+qsTr("Unlike all other H5P systems, Lumi does not require Moodle, WordPress, or Drupal. You can simply create interactive content and share it with your students by exporting it as an HTML file and uploading it to Aules.")+"</p>"+
+            "</h4></div>"       
+        }
+    }
+
+    Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
+        Image {
             id: finish_background
             source: "finish_ubiquity.png"
             fillMode: Image.Pad

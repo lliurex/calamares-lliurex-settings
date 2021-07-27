@@ -328,6 +328,56 @@ Presentation
         height:parent.height
 
         Image {
+            id: llxstudio_llx21
+            source: "llxstudio_llx21.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:330
+            y:170
+            width:480
+            height:420
+            color: "#642e3e"
+            font.family:"noto"
+            font.pixelSize:24
+            font.bold:true
+            text: 
+                  qsTr("Lliurex Edition Studio")
+           
+        }
+
+        Text {
+            x:330
+            y:210
+            width:440
+            height:450
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:"<div><h4>"+"<p>"+
+            qsTr("We put at your disposal all the necessary resources to generate multimedia didactic material:")+"</p>"+
+            "<ul><li>"+qsTr("Audio editors, Audacity, VLC.")+"</li>"+
+            "<li>"+qsTr("Video editors, Cinelerra, OBS Studio, Shotcut...")+"</li>"+
+            "<li>"+qsTr("Format converters, Handbrake, Selena Media Converter.")+"</li>"+
+            "<li>"+qsTr("All necessary codecs.")+"</li></ul>"+
+            "<div><p>"+qsTr("With LliureX you will have a multimedia studio.")+"</p></div>"+
+            "</h4></div>"
+        }
+    }
+
+
+
+    Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
+        Image {
             id: finish_background
             source: "finish_ubiquity.png"
             fillMode: Image.Pad

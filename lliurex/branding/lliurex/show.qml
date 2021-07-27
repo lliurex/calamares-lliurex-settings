@@ -40,18 +40,108 @@ Presentation
             fillMode: Image.Pad
         }
         Text {
-            x:350
-            y:190
+            x:335
+            y:170
             width:430
-            height:500
+            height:510
             text: 
-                  qsTr("LliureX is an initiative driven by the Department of Education of Regional Government with the purpose of using free software ICTs in the Valencian Education System, so as to allow its users to enjoy a thoughtful and fine user experience.<br/>")+"<br/>"+
-                  qsTr("LliureX is a Custom Ubuntu GNU/Linux Distribution (CDD) intended as an operating system for educational institutions.")
+                  qsTr("LliureX is an initiative driven by the Department of Education of Regional Government with the purpose of using free software ICTs in the Valencian Education System, so as to allow its users to enjoy a thoughtful and fine user experience.<br/>")+
+                  qsTr("LliureX is a Custom Ubuntu GNU/Linux Distribution (CDD) intended as an operating system for educational institutions.")+"<br/><br/>"+
+                  qsTr("While LliureX is installed, this slideshow will show you around its main features.")
             wrapMode: Text.WordWrap
             color:"#25313D"
             font.family:"noto"
             font.bold:true
             font.pixelSize:16
+        }
+    }
+
+     Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
+        Image {
+            id: kde_neon
+            source: "kde_neon.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:60
+            y:210
+            width:450
+            height:420
+            color: "#642e3e"
+            font.family:"noto"
+            font.pixelSize:24
+            font.bold:true
+            text: 
+                  qsTr("Bassed on KDE Neon")
+           
+        }
+
+        Text {
+            x:60
+            y:260
+            width:420
+            height:450
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:qsTr("<div><h4>")+
+            qsTr("<p>LliureX develops its full potential from KDE NEON.</p>")+
+            qsTr("<p>In this way we have a very solid base such as that offered by Ubuntu LTS and a modern desktop that is constantly updated.</p>")                  
+           
+        }
+    }
+
+    Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
+        Image {
+            id: modelos_llx21
+            source: "modelos_llx21.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:180
+            y:170
+            width:480
+            height:420
+            color: "#642e3e"
+            font.family:"noto"
+            font.pixelSize:24
+            font.bold:true
+            text: 
+                  qsTr("Usage Models")
+           
+        }
+
+        Text {
+            x:180
+            y:210
+            width:440
+            height:450
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:qsTr("<div><h4>")+
+            qsTr("<p>Lliurex makes it easy to use with three different models:</p>")+
+            qsTr("<ul><li><font style='color:#642e3e'>Desk model:</font> Any computer can be a LliureX with all its advantages without the need to be in a classroom.</li>")+
+            qsTr("<li><font style='color:#642e3e'>Classroom model:</font>  Remote control, mobile profiles, LDAP validation ...</li>")+
+            qsTr("<li><font style='color:#642e3e'>Center model:</font>  All the previous advantages, in each independent classroom, but sharing the LDAP, mobile profiles, Mirror ...</li></ul></h4></div>")         
         }
     }
 
@@ -70,7 +160,7 @@ Presentation
         }
         Text {
             x:50
-            y:160
+            y:130
             width:430
             height:500
             color: "#642e3e"
@@ -84,8 +174,8 @@ Presentation
 
         Text {
             x:50
-            y:200
-            width:450
+            y:180
+            width:470
             height:500
             wrapMode:Text.WordWrap
             color: "#25313D"
@@ -94,15 +184,17 @@ Presentation
             textFormat: Text.RichText
             text:qsTr("<div><h4>")+
             qsTr("<p>If you need help, you can contact us:</p>")+
-            qsTr("<ul><li>Using our webpage at Mestre a casa </li>")+
-            qsTr("<li>On the mailing list, subscribe on the page of LliureX project at GitHub.</li>")+
-            qsTr("<li>At our twitter account @lliurex at Twitter</li></ul>")+
-            qsTr("<div><p>The installation will finish soon. We hope you enjoy LliureX.</p></div></h4></div></div>")
+            qsTr("<ul><li>Using our forum webpage at Mestre a casa https://mestreacasa.gva.es/web/lliurex/forums</li>")+
+            qsTr("<li>Subscribe & collaborate with LliureX project at GitHub.</li>")+
+            qsTr("<li>At our Telegram account https://t.me/comunitat_lliurex</li></ul>")+
+            qsTr("<div><p>The installation will finish soon. We hope you enjoy LliureX 21.</p></div></h4></div></div>")
 
                   
            
         }
     }
+
+   
 
 
     // When this slideshow is loaded as a V1 slideshow, only

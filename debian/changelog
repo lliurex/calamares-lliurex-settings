@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.16.2) focal; urgency=medium
+
+  * Adding new slideshows.
+
+ -- Daniel Duran <daduve@gmail.com>  Tue, 27 Jul 2021 14:14:06 +0200
+
 calamares-lliurex-settings (0.16.1) focal; urgency=medium
 
   * Update translations

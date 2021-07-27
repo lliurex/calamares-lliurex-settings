@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.16.3) focal; urgency=medium
+
+  * Adding Lumi Slideshow 
+
+ -- Daniel Duran <daduve@gmail.com>  Tue, 27 Jul 2021 17:05:22 +0200
+
 calamares-lliurex-settings (0.16.2) focal; urgency=medium
 
   * Adding new slideshows.

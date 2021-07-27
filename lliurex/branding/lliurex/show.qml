@@ -145,6 +145,138 @@ Presentation
         }
     }
 
+     Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
+        Image {
+            id: cdc_llx21
+            source: "cdc_llx21.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:320
+            y:170
+            width:480
+            height:420
+            color: "#642e3e"
+            font.family:"noto"
+            font.pixelSize:24
+            font.bold:true
+            text: 
+                  qsTr("Collaborative Digital Center (CDC)")
+           
+        }
+
+        Text {
+            x:320
+            y:210
+            width:440
+            height:450
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:"<div><h4>"+
+            qsTr("<p>LliureX will be integrated with the Collaborative Digital Center project that has been promoted by the Generalitat Valenciana and that will allow having a single user (digital identity) together with their data available at any center in the Community.</p>")+
+            qsTr("<p>In addition to email, each user will have storage space in the cloud, the possibility of videoconferencing and other collaborative work tools.</p>")+
+            "</h4></div>"        
+        }
+    }
+
+    Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
+        Image {
+            id: novedades1_llx21
+            source: "novedades1_llx21.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:60
+            y:190
+            width:480
+            height:420
+            color: "#642e3e"
+            font.family:"noto"
+            font.pixelSize:24
+            font.bold:true
+            text: 
+                  qsTr("Novelties")
+           
+        }
+
+        Text {
+            x:60
+            y:230
+            width:440
+            height:450
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:"<div><h4>"+
+            qsTr("<p>A lot of effort has been made to modernize the applications own LLiureX, like Java panel, Lliurex Shutdowner and Lliurex flavours selector.</p>")+
+            qsTr("<p>Betting on a more current design, facilitating its usability, and integrating them into the new KDE desktop.</p>")+
+            "</h4></div>"        
+        }
+    }
+
+    Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
+        Image {
+            id: novedades2_llx21
+            source: "novedades2_llx21.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:320
+            y:170
+            width:480
+            height:420
+            color: "#642e3e"
+            font.family:"noto"
+            font.pixelSize:24
+            font.bold:true
+            text: 
+                  qsTr("Novelties")
+           
+        }
+
+        Text {
+            x:320
+            y:210
+            width:440
+            height:450
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:"<div><h4>"+
+            qsTr("<p>LliureX Remote Installer to the options of scheduling the classroom to be updated, to install an App or run a script, we add the option to install an App from a zomando.</p>")+
+            qsTr("<p>First Aid Kit now gives more information about the system such as version, server type, implanted model and includes the option to enable / disable pinning from APT.</p>")+
+            "</h4></div>"        
+        }
+    }
+
     Slide {
         x:0
         y:0

@@ -35,13 +35,62 @@
     </message>
     <message>
         <location filename="../show.qml" line="171"/>
+        <source>Collaborative Digital Center (CDC)</source>
+        <translation>Centro Digital Colaborativo (CDC)</translation>
+    </message>
+    <message>
+        <location filename="../show.qml" line="186"/>
+        <source>&lt;p&gt;LliureX will be integrated with the Collaborative Digital Center project that has been promoted by the Generalitat Valenciana and that will allow having a single user (digital identity) together with their data available at any center in the Community.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;LliureX se integrará con el proyecto Centro Digital Colaborativo que ha impulsado la Generalitat Valenciana y que permitirá tener un usuario único (identidad digital) junto con sus datos disponibles en cualquier centro de la Comunidad.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>Connected Digital Centers (CDC)</source>
+        <translation type="vanished">Centros Digitales Conectados (CDC)</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Lliurex will be able to be integrated into the digital identity project that the Valencian community has promoted and that will allow having a single user along with their data available at any center in the Valencian community.&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;Lliurex se podrá integrar en el proyecto de identidad digital que ha impulsado la Comunidad Valenciana y que permitirá tener un usuario único junto con sus datos disponible en cualquier centro de la comunidad.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../show.qml" line="187"/>
+        <source>&lt;p&gt;In addition to email, each user will have storage space in the cloud, the possibility of videoconferencing and other collaborative work tools.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Además del correo, cada usuario contará con espacio de almacenamiento en la nube, posibilidad de hacer videoconferencias y otras herramientas de trabajo colaborativas.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../show.qml" line="215"/>
+        <location filename="../show.qml" line="259"/>
+        <source>Novelties</source>
+        <translation>Novedades</translation>
+    </message>
+    <message>
+        <location filename="../show.qml" line="230"/>
+        <source>&lt;p&gt;A lot of effort has been made to modernize the applications own LLiureX, like Java panel, Lliurex Shutdowner and Lliurex flavours selector.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Se ha hecho un gran esfuerzo por modernizar las aplicaciones propias de LLiureX, como Java Panel, Lliurex Shutdowner y el Selector de Sabores de LLiureX.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../show.qml" line="231"/>
+        <source>&lt;p&gt;Betting on a more current design, facilitating its usability, and integrating them into the new KDE desktop.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Apostando por un diseño mas actual, facilitando su usabilidad, e integrándolas dentro del nuevo escritorio de KDE.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../show.qml" line="274"/>
+        <source>&lt;p&gt;LliureX Remote Installer to the options of scheduling the classroom to be updated, to install an App or run a script, we add the option to install an App from a zomando.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;LliureX Remote Installer a las opciones de programar el aula para ser actualizada, para instalar un App o ejecutar un script, añadimos la opción de instalar una App de un zomando..&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../show.qml" line="275"/>
+        <source>&lt;p&gt;First Aid Kit now gives more information about the system such as version, server type, implanted model and includes the option to enable / disable pinning from APT.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;First Aid Kit ahora da mas información sobre el sistema como la versión, tipo de servidor, modelo implantado e incluida la opción de activar/desactivar el pinnig desde APT&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../show.qml" line="303"/>
         <source>Getting Help</source>
         <translation>Obtener ayuda</translation>
     </message>
     <message>
         <location filename="../show.qml" line="96"/>
         <location filename="../show.qml" line="140"/>
-        <location filename="../show.qml" line="185"/>
+        <location filename="../show.qml" line="317"/>
         <source>&lt;div&gt;&lt;h4&gt;</source>
         <translation>&lt;div&gt;&lt;h4&gt;</translation>
     </message>
@@ -83,27 +132,27 @@
         <translation type="vanished">&lt;li&gt;Modelo de centro: Todas las ventajas anteriores, en cada aula independiente, pero compartiendo el LDAP, perfiles moviles, Mirror...&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</translation>
     </message>
     <message>
-        <location filename="../show.qml" line="186"/>
+        <location filename="../show.qml" line="318"/>
         <source>&lt;p&gt;If you need help, you can contact us:&lt;/p&gt;</source>
         <translation>&lt;p&gt;Si necesitas ayuda, puedes contactar con el equipo de LliureX:&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../show.qml" line="187"/>
+        <location filename="../show.qml" line="319"/>
         <source>&lt;ul&gt;&lt;li&gt;Using our forum webpage at Mestre a casa https://mestreacasa.gva.es/web/lliurex/forums&lt;/li&gt;</source>
         <translation>&lt;ul&gt;&lt;li&gt;Utiliza nuestro foro de Mestre a Casa https://mestreacasa.gva.es/web/lliurex/forums&lt;/li&gt;</translation>
     </message>
     <message>
-        <location filename="../show.qml" line="188"/>
+        <location filename="../show.qml" line="320"/>
         <source>&lt;li&gt;Subscribe &amp; collaborate with LliureX project at GitHub.&lt;/li&gt;</source>
         <translation>&lt;li&gt;Subscribete y colabora con nuestro proyecto en GitHub.&lt;/li&gt;</translation>
     </message>
     <message>
-        <location filename="../show.qml" line="189"/>
+        <location filename="../show.qml" line="321"/>
         <source>&lt;li&gt;At our Telegram account https://t.me/comunitat_lliurex&lt;/li&gt;&lt;/ul&gt;</source>
         <translation>&lt;li&gt;Unete a nuestro grupo de Telegram https://t.me/comunitat_lliurex&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../show.qml" line="190"/>
+        <location filename="../show.qml" line="322"/>
         <source>&lt;div&gt;&lt;p&gt;The installation will finish soon. We hope you enjoy LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</source>
         <translation>&lt;div&gt;&lt;p&gt;La instalación finalizará pronto. Esperamos que disfrutes de LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</translation>
     </message>

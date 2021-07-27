@@ -167,5 +167,25 @@
         <source>With LliureX you will have a multimedia studio.</source>
         <translation>Amb LliureX tindràs un estudi multimèdia.</translation>
     </message>
+    <message>
+        <source>3D Print</source>
+        <translation>Impressió 3D</translation>
+    </message>
+    <message>
+        <source>In lliurex 21 it will be easier for you to work with 3D printers. Thanks to our zomando you can have the most famous slicer tools at your fingertips:</source>
+        <translation>En Lliurex 21 et serà més fàcil treballar amb impressores 3D. Gràcies al nostre zomando pots tindre les eines de tall més famoses al teu abast:</translation>
+    </message>
+    <message>
+        <source>Slic3r.</source>
+        <translation>Slic3r.</translation>
+    </message>
+    <message>
+        <source>Ultimaker Cura.</source>
+        <translation>Ultimaker Cura.</translation>
+    </message>
+    <message>
+        <source>PrusaSlicer.</source>
+        <translation>PrusaSlicer.</translation>
+    </message>
 </context>
 </TS>

@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.16.9) focal; urgency=medium
+
+  * Adding translations to Slideshow 
+
+ -- Daniel Duran <daduve@gmail.com>  Wed, 28 Jul 2021 17:19:14 +0200
+
 calamares-lliurex-settings (0.16.8) focal; urgency=medium
 
   * Adding more time lapsing to slideshow.

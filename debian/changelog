@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.16.8) focal; urgency=medium
+
+  * Adding more time lapsing to slideshow.
+
+ -- Daniel Duran <daduve@gmail.com>  Wed, 28 Jul 2021 09:18:20 +0200
+
 calamares-lliurex-settings (0.16.7) focal; urgency=medium
 
   * Restore welcome.png

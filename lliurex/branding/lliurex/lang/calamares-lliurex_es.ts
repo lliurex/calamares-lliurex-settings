@@ -25,7 +25,7 @@
     </message>
     <message>
         <source>&lt;li&gt;&lt;font style=&apos;color:#642e3e&apos;&gt;Center model:&lt;/font&gt;  All the previous advantages, in each independent classroom, but sharing the LDAP, mobile profiles, Mirror ...&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</source>
-        <translation>&lt;li&gt;&lt;font style=&apos;color:#642e3e&apos;&gt;Modelo de centro:&lt;/font&gt;  Todas las ventajas anteriores, en cada aula independiente, pero compartiendo el LDAP, perfiles moviles, Mirror...&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</translation>
+        <translation>&lt;li&gt;&lt;font style=&apos;color:#642e3e&apos;&gt;Modelo de centro:&lt;/font&gt;  Todas las ventajas anteriores, en cada aula independiente, pero compartiendo el LDAP, perfiles móviles, Mirror...&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <source>Collaborative Digital Center (CDC)</source>
@@ -53,19 +53,19 @@
     </message>
     <message>
         <source>&lt;p&gt;A lot of effort has been made to modernize the applications own LLiureX, like Java panel, Lliurex Shutdowner and Lliurex flavours selector.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Se ha hecho un gran esfuerzo por modernizar las aplicaciones propias de LLiureX, como Java Panel, Lliurex Shutdowner y el Selector de Sabores de LLiureX.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Se ha hecho un gran esfuerzo por modernizar las aplicaciones propias de LLiureX, como Java Panel, LliureX Shutdowner y el Selector de Sabores de LLiureX.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Betting on a more current design, facilitating its usability, and integrating them into the new KDE desktop.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Apostando por un diseño mas actual, facilitando su usabilidad, e integrándolas dentro del nuevo escritorio de KDE.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Apostando por un diseño más actual, facilitando su usabilidad, e integrándolas dentro del nuevo escritorio de KDE.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;LliureX Remote Installer to the options of scheduling the classroom to be updated, to install an App or run a script, we add the option to install an App from a zomando.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;LliureX Remote Installer a las opciones de programar el aula para ser actualizada, para instalar un App o ejecutar un script, añadimos la opción de instalar una App de un zomando..&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;LliureX Remote Installer, a las opciones de programar el aula para ser actualizada, para instalar un App o ejecutar un script, añade la opción de instalar una App de un zomando..&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;First Aid Kit now gives more information about the system such as version, server type, implanted model and includes the option to enable / disable pinning from APT.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;First Aid Kit ahora da mas información sobre el sistema como la versión, tipo de servidor, modelo implantado e incluida la opción de activar/desactivar el pinnig desde APT&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;First Aid Kit ahora da más información sobre el sistema como la versión, tipo de servidor, modelo implantado e incluye la opción de activar/desactivar el pinning desde APT&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Getting Help</source>
@@ -85,7 +85,7 @@
     </message>
     <message>
         <source>&lt;p&gt;In this way we have a very solid base such as that offered by Ubuntu LTS and a modern desktop that is constantly updated.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;De esta manera tenemos una base muy solida como es la que nos ofrece Ubuntu LTS y un escritorio moderno y en constante actualización.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;De esta manera tenemos una base muy sólida como es la que nos ofrece Ubuntu LTS y un escritorio moderno y en constante actualización.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Usage Models</source>
@@ -93,7 +93,7 @@
     </message>
     <message>
         <source>&lt;p&gt;Lliurex makes it easy to use with three different models:&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Lliurex facilita su uso con tres modelos diferentes:&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;LliureX facilita su uso con tres modelos diferentes:&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;Desk model: Any computer can be a LliureX with all its advantages without the need to be in a classroom.&lt;/li&gt;</source>
@@ -117,11 +117,11 @@
     </message>
     <message>
         <source>&lt;li&gt;Subscribe &amp; collaborate with LliureX project at GitHub.&lt;/li&gt;</source>
-        <translation>&lt;li&gt;Subscribete y colabora con nuestro proyecto en GitHub.&lt;/li&gt;</translation>
+        <translation>&lt;li&gt;Subscríbete y colabora con nuestro proyecto en GitHub.&lt;/li&gt;</translation>
     </message>
     <message>
         <source>&lt;li&gt;At our Telegram account https://t.me/comunitat_lliurex&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation>&lt;li&gt;Unete a nuestro grupo de Telegram https://t.me/comunitat_lliurex&lt;/li&gt;&lt;/ul&gt;</translation>
+        <translation type="unfinished">&lt;li&gt;Únete a nuestro grupo de Telegram https://t.me/comunitat_lliurex y cuenta de correo lliurex@gva.es&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
         <source>&lt;div&gt;&lt;p&gt;The installation will finish soon. We hope you enjoy LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</source>
@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>You can create, edit and view interactive HTML elements (H5P packages) in your desktop environment.</source>
-        <translation>Puedes crear, editar y ver elementos HTML interactivos (paquetes H5P) en tu entorno de escritorio.</translation>
+        <translation>Puedes crear, editar y ver materiales didácticos interactivos (paquetes H5P) en tu entorno de escritorio.</translation>
     </message>
     <message>
         <source>Unlike all other H5P systems, Lumi does not require Moodle, WordPress, or Drupal. You can simply create interactive content and share it with your students by exporting it as an HTML file and uploading it to Aules.</source>
@@ -173,7 +173,7 @@
     </message>
     <message>
         <source>In lliurex 21 it will be easier for you to work with 3D printers. Thanks to our zomando you can have the most famous slicer tools at your fingertips:</source>
-        <translation>En lliurex 21 te será más fácil trabajar con impresoras 3D. Gracias a nuestro zomando puedes tener las herramientas de corte más famosas a tu alcance:</translation>
+        <translation>En LliureX 21 te será más fácil trabajar con impresoras 3D. Gracias a nuestro zomando puedes tener las herramientas de corte más famosas a tu alcance:</translation>
     </message>
     <message>
         <source>Slic3r.</source>

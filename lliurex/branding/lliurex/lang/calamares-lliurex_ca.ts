@@ -25,7 +25,7 @@
     </message>
     <message>
         <source>&lt;li&gt;&lt;font style=&apos;color:#642e3e&apos;&gt;Center model:&lt;/font&gt;  All the previous advantages, in each independent classroom, but sharing the LDAP, mobile profiles, Mirror ...&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</source>
-        <translation>&lt;li&gt;&lt;font style=&apos;color:#642e3e&apos;&gt;Model de centre:&lt;/font&gt;  Tots els avantatges anteriors, en cada aula independent, però compartint el LDAP, perfils moviles, Mirror...&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</translation>
+        <translation>&lt;li&gt;&lt;font style=&apos;color:#642e3e&apos;&gt;Model de centre:&lt;/font&gt;  Tots els avantatges anteriors, en cada aula independent, però compartint el LDAP, perfils mòbils, Mirror...&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <source>Collaborative Digital Center (CDC)</source>
@@ -53,19 +53,19 @@
     </message>
     <message>
         <source>&lt;p&gt;A lot of effort has been made to modernize the applications own LLiureX, like Java panel, Lliurex Shutdowner and Lliurex flavours selector.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;S&apos;ha fet un gran esforç per modernitzar les aplicacions pròpies de LLiureX, com Java Panell, Lliurex Shutdowner i el Selector de Sabors de LLiureX.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;S&apos;ha fet un gran esforç per modernitzar les aplicacions pròpies de LLiureX, com Java Panell, LliureX Shutdowner i el Selector de Sabors de LLiureX.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Betting on a more current design, facilitating its usability, and integrating them into the new KDE desktop.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Apostant per un disseny mes actual, facilitant la seua usabilitat, i integrant-les dins del nou escriptori de KDE.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Apostant per un disseny més actual, facilitant la seua usabilitat, i integrant-les dins del nou escriptori de KDE.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;LliureX Remote Installer to the options of scheduling the classroom to be updated, to install an App or run a script, we add the option to install an App from a zomando.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;LliureX Remote Installer a les opcions de programar l&apos;aula per a ser actualitzada, per a instal·lar un App o executar un script, afegim l&apos;opció d&apos;instal·lar una App d&apos;un zomando.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;LliureX Remote Installer, a les opcions de programar l&apos;aula per a ser actualitzada, per a instal·lar un App o executar un script, afig l&apos;opció d&apos;instal·lar una App d&apos;un zomandament.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;First Aid Kit now gives more information about the system such as version, server type, implanted model and includes the option to enable / disable pinning from APT.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;First Aid Kit ara dona mes informació sobre el sistema com la versió, tipus de servidor, model implantat i inclosa l&apos;opció d&apos;activar/desactivar el pinnig des de APT.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;First Aid Kit ara dona més informació sobre el sistema com la versió, tipus de servidor, model implantat i inclou l&apos;opció d&apos;activar/desactivar el pinning des de APT.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Getting Help</source>
@@ -77,7 +77,7 @@
     </message>
     <message>
         <source>Bassed on KDE Neon</source>
-        <translation>Basats en KDE Neon</translation>
+        <translation>Basat en KDE Neon</translation>
     </message>
     <message>
         <source>&lt;p&gt;LliureX develops its full potential from KDE NEON.&lt;/p&gt;</source>
@@ -93,7 +93,7 @@
     </message>
     <message>
         <source>&lt;p&gt;Lliurex makes it easy to use with three different models:&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Lliurex facilita el seu ús amb tres models diferents:&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;LliureX facilita el seu ús amb tres models diferents:&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;Desk model: Any computer can be a LliureX with all its advantages without the need to be in a classroom.&lt;/li&gt;</source>
@@ -109,19 +109,19 @@
     </message>
     <message>
         <source>&lt;p&gt;If you need help, you can contact us:&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Si necessiteu ajuda, podeu contactar amb nosaltres:&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Si necessites ajuda, pots contactar amb nosaltres:&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;Using our forum webpage at Mestre a casa https://mestreacasa.gva.es/web/lliurex/forums&lt;/li&gt;</source>
-        <translation>&lt;ul&gt;&lt;li&gt;Utilitzeu el nostre fòrum Mestre a casa https://mestreacasa.gva.es/web/lliurex/forums&lt;/li&gt;</translation>
+        <translation>&lt;ul&gt;&lt;li&gt;Utilitza el nostre fòrum Mestre a casa https://mestreacasa.gva.es/web/lliurex/forums&lt;/li&gt;</translation>
     </message>
     <message>
         <source>&lt;li&gt;Subscribe &amp; collaborate with LliureX project at GitHub.&lt;/li&gt;</source>
-        <translation>&lt;li&gt;Subscriviu-vos  i col·laborareu en la pàgina del projecte LliureX a GitHub.&lt;/li&gt;</translation>
+        <translation>&lt;li&gt;Subscriute i col·labora en la pàgina del projecte LliureX a GitHub.&lt;/li&gt;</translation>
     </message>
     <message>
         <source>&lt;li&gt;At our Telegram account https://t.me/comunitat_lliurex&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation>&lt;li&gt;El nostre compte de Telegram https://t.me/comunitat_lliurex&lt;/li&gt;&lt;/ul&gt;</translation>
+        <translation>&lt;li&gt;El nostre compte de Telegram https://t.me/comunitat_lliurex i correu lliurex@gva.es&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
         <source>&lt;div&gt;&lt;p&gt;The installation will finish soon. We hope you enjoy LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</source>
@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>You can create, edit and view interactive HTML elements (H5P packages) in your desktop environment.</source>
-        <translation>Pots crear, editar i veure elements HTML interactius (paquets H5P) en el teu entorn d&apos;escriptori.</translation>
+        <translation>Pots crear, editar i veure materials didàctics interactius (paquets H5P) en el teu entorn d&apos;escriptori.</translation>
     </message>
     <message>
         <source>Unlike all other H5P systems, Lumi does not require Moodle, WordPress, or Drupal. You can simply create interactive content and share it with your students by exporting it as an HTML file and uploading it to Aules.</source>
@@ -173,7 +173,7 @@
     </message>
     <message>
         <source>In lliurex 21 it will be easier for you to work with 3D printers. Thanks to our zomando you can have the most famous slicer tools at your fingertips:</source>
-        <translation>En Lliurex 21 et serà més fàcil treballar amb impressores 3D. Gràcies al nostre zomando pots tindre les eines de tall més famoses al teu abast:</translation>
+        <translation>En LliureX 21 et serà més fàcil treballar amb impressores 3D. Gràcies al nostre zomandament pots tindre les eines de tall més famoses al teu abast:</translation>
     </message>
     <message>
         <source>Slic3r.</source>

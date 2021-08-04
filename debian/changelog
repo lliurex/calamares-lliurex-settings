@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.18.1) focal; urgency=medium
+
+  * Dummy upgrade
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 04 Aug 2021 11:11:12 +0200
+
 calamares-lliurex-settings (0.18) focal; urgency=medium
 
   * Remove install shim-signed. Now is by default

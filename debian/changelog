@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.19) focal; urgency=medium
+
+  * Remove statistics from installers
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 01 Dec 2021 18:01:05 +0100
+
 calamares-lliurex-settings (0.18.1) focal; urgency=medium
 
   * Dummy upgrade

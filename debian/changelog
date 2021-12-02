@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.19.1) focal; urgency=medium
+
+  * Add anydesk to installers 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 02 Dec 2021 09:57:37 +0100
+
 calamares-lliurex-settings (0.19) focal; urgency=medium
 
   * Remove statistics from installers

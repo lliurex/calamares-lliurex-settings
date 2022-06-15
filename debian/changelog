@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.21) lliurex22; urgency=medium
+
+  * Modify url to check internet
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 15 Jun 2022 13:12:49 +0200
+
 calamares-lliurex-settings (0.20) lliurex22; urgency=medium
 
   * Increase size requirement to install

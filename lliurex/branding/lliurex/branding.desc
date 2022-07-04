@@ -30,4 +30,4 @@ style:
    sidebarBackground:    "#2f343f"
    sidebarText:          "#7c89a6"
    sidebarTextSelect:    "#ffffff"
-   sidebarTextHighlight  "4084d6"
+   sidebarTextHighlight:  "#4084d6"

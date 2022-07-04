@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.22) focal; urgency=medium
+
+  * New theme for lliurex 20.2022.
+
+ -- Daniel Duran <daduve@gmail.com>  Mon, 04 Jul 2022 21:23:35 +0200
+
 calamares-lliurex-settings (0.21) lliurex22; urgency=medium
 
   * Modify url to check internet

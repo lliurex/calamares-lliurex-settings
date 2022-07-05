@@ -29,11 +29,11 @@
     </message>
     <message>
         <source>Collaborative Digital Center (CDC)</source>
-        <translation>Centre Digital Col·laboratiu. (CDC)</translation>
+        <translation>CENTRE DIGITAL COL·LABORATIU (CDC)</translation>
     </message>
     <message>
         <source>&lt;p&gt;LliureX will be integrated with the Collaborative Digital Center project that has been promoted by the Generalitat Valenciana and that will allow having a single user (digital identity) together with their data available at any center in the Community.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;LliureX s&apos;integrarà amb el projecte Centre Digital Col·laboratiu que ha impulsat la Generalitat Valenciana i que permetrà tindre un usuari únic (identitat digital) juntament amb les seues dades disponibles en qualsevol centre de la Comunitat.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;LliureX s&apos;integra amb el projecte Centre Digital Col·laboratiu que ha impulsat la Generalitat Valenciana i que permetrà tindre un usuari únic (identitat digital) juntament amb les seues dades disponibles en qualsevol centre de la Comunitat.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Connected Digital Centers (CDC)</source>
@@ -49,7 +49,7 @@
     </message>
     <message>
         <source>Novelties</source>
-        <translation>Novetats</translation>
+        <translation>NOVETATS</translation>
     </message>
     <message>
         <source>&lt;p&gt;A lot of effort has been made to modernize the applications own LLiureX, like Java panel, Lliurex Shutdowner and Lliurex flavours selector.&lt;/p&gt;</source>
@@ -69,7 +69,7 @@
     </message>
     <message>
         <source>Getting Help</source>
-        <translation>Obteniu ajuda</translation>
+        <translation>OBTENIU AJUDA</translation>
     </message>
     <message>
         <source>&lt;div&gt;&lt;h4&gt;</source>
@@ -77,7 +77,7 @@
     </message>
     <message>
         <source>Bassed on KDE Neon</source>
-        <translation>Basat en KDE Neon</translation>
+        <translation>BASAT EN KDE NEON</translation>
     </message>
     <message>
         <source>&lt;p&gt;LliureX develops its full potential from KDE NEON.&lt;/p&gt;</source>
@@ -89,7 +89,7 @@
     </message>
     <message>
         <source>Usage Models</source>
-        <translation>Maneres d&apos;ús</translation>
+        <translation>MANERES D&apos;ÚS</translation>
     </message>
     <message>
         <source>&lt;p&gt;Lliurex makes it easy to use with three different models:&lt;/p&gt;</source>
@@ -129,7 +129,7 @@
     </message>
     <message>
         <source>LUMI Interactive Content with H5P</source>
-        <translation>LUMI Contingut interactiu amb H5P</translation>
+        <translation>LUMI CONTINGUT INTERACTIU AMB H5P</translation>
     </message>
     <message>
         <source>You can create, edit and view interactive HTML elements (H5P packages) in your desktop environment.</source>
@@ -141,7 +141,7 @@
     </message>
     <message>
         <source>Lliurex Edition Studio</source>
-        <translation>Lliurex Edition Studio</translation>
+        <translation>LLIUREX EDITION STUDIO</translation>
     </message>
     <message>
         <source>We put at your disposal all the necessary resources to generate multimedia didactic material:</source>
@@ -169,7 +169,7 @@
     </message>
     <message>
         <source>3D Print</source>
-        <translation>Impressió 3D</translation>
+        <translation>IMPRESSIÓ 3D</translation>
     </message>
     <message>
         <source>In lliurex 21 it will be easier for you to work with 3D printers. Thanks to our zomando you can have the most famous slicer tools at your fingertips:</source>
@@ -201,7 +201,7 @@
     </message>
     <message>
         <source>&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;LliureX Access Control:&lt;/font&gt;  manages who has access to the equipment, by filtering by groups (teachers, students), for specific people or by center code... so access to each equipment can be restricted according to needs.&lt;/li&gt;</source>
-        <translation>&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;LliureX Access Control:&lt;/font&gt;  gestiona qui té accés a l&apos;equip, mitjançant filtratge per grups (professorat, alumnat), per a persones concretes o per codi de centre…, així l&apos;accés a cada equip podrà estar restringits segons les necessitats.&lt;/li&gt;</translation>
+        <translation>&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;LliureX Access Control:&lt;/font&gt;  gestiona qui té accés a l&apos;equip, mitjançant filtratge per grups (professorat, alumnat), per a persones concretes o per codi de centre…, així l&apos;accés a cada equip podrà estar restringit segons les necessitats.&lt;/li&gt;</translation>
     </message>
     <message>
         <source>&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Guest User:&lt;/font&gt;  generic user without password, with volatile data and configuration; at the next login, no data from the previous one will be accessible.&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</source>
@@ -269,11 +269,11 @@
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Multimedia&lt;/font&gt; where you will find a wide variety of applications and additional tools and utilities such as Reimage, papeleria... &lt;/li&gt;</source>
-        <translation>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Multimedia&lt;/font&gt; on trobaràs una gran varietat d&apos;aplicacions i eines i utilitats addicionals com Reimage, Papereria…&lt;/li&gt;</translation>
+        <translation>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Multimèdia&lt;/font&gt;, on trobaràs una gran varietat d&apos;aplicacions i eines i utilitats addicionals com Reimage, Papereria…&lt;/li&gt;</translation>
     </message>
     <message>
         <source>&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Formative Cycles&lt;/font&gt;, administrative Fp, electronics and computing.&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</source>
-        <translation>&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Cicles Formatius&lt;/font&gt;, om FP administratiu, electrònica, informàtica.&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</translation>
+        <translation>&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Cicles Formatius&lt;/font&gt;, com administratiu, electrònica, informàtica.&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <source>Novelties - Zero-Center (2)</source>
@@ -301,7 +301,7 @@
     </message>
     <message>
         <source>&lt;li&gt;This reorganization of Zero-Center allows intuitive access to the installation of applications that until now were found in the Media and Children flavors that, therefore, have been discarded for this review of LliureX.&lt;/li&gt;&lt;/h4&gt;&lt;/div&gt;</source>
-        <translation>&lt;li&gt;Aquesta reorganització de Zero-Center, permet accedir d&apos;una forma intuïtiva a la instal·lació de les aplicacions que fins ara es trobaven en els sabors Mitjà i Infantil que, per tant, han sigut descartats per a aquesta revisió de LliureX.&lt;/li&gt;&lt;/h4&gt;&lt;/div&gt;</translation>
+        <translation>&lt;li&gt;Aquesta reorganització de Zero-Center, permet accedir d&apos;una forma intuïtiva a la instal·lació de les aplicacions que fins ara es trobaven en els sabors Mèdia i Infantil que, per tant, han sigut descartats per a aquesta revisió de LliureX.&lt;/li&gt;&lt;/h4&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <source>Novelties - Asamblea</source>
@@ -313,7 +313,7 @@
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;&lt;li&gt;Take roll call with the photos of the students.&lt;/li&gt;&lt;/li&gt;</source>
-        <translation>&lt;ul&gt;&lt;li&gt;&lt;li&gt;assa llista amb les fotos dels alumnes.&lt;/li&gt;&lt;/li&gt;</translation>
+        <translation>&lt;ul&gt;&lt;li&gt;&lt;li&gt;Passa llista amb les fotos dels alumnes.&lt;/li&gt;&lt;/li&gt;</translation>
     </message>
     <message>
         <source>&lt;li&gt;&lt;li&gt;Check the day of the week, the date and the season.&lt;/li&gt;&lt;/li&gt;</source>
@@ -337,7 +337,7 @@
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Acces Helper&lt;/font&gt; brings you a wide variety of settings:&lt;/li&gt;</source>
-        <translation>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Acces Helper&lt;/font&gt; t&apos;acosta tots els ajustos possibles:&lt;/li&gt;</translation>
+        <translation>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Acces Helper&lt;/font&gt; t&apos;acosta una àmplia varietat d&apos;ajustos:&lt;/li&gt;</translation>
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;Color filters on screen.&lt;/li&gt;</source>
@@ -345,7 +345,7 @@
     </message>
     <message>
         <source>&lt;li&gt;Zoom settings.&lt;/li&gt;</source>
-        <translation>&lt;li&gt;Ajustos de zoom&lt;/li&gt;</translation>
+        <translation>&lt;li&gt;Ajustos de zoom.&lt;/li&gt;</translation>
     </message>
     <message>
         <source>&lt;li&gt;High visibility pointers.&lt;/li&gt;</source>
@@ -389,11 +389,11 @@
     </message>
     <message>
         <source>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;LliureX Remote Installer&lt;/font&gt; to the options of scheduling the classroom to be updated, to install an App or run a script, we add the option to install an App from a zomando.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;LliureX Remote Installer&lt;/font&gt; a les opcions de programar l&apos;aula per a ser actualitzada, per a instal·lar un App o executar un script, afig l&apos;opció d&apos;instal·lar una App d&apos;un zomandament.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;LliureX Remote Installer:&lt;/font&gt; a les opcions de programar l&apos;aula per a ser actualitzada, per a instal·lar un App o executar un script, afig l&apos;opció d&apos;instal·lar una App d&apos;un zomandament.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;First Aid Kit&lt;/font&gt; now gives more information about the system such as version, server type, implanted model and includes the option to enable / disable pinning from APT.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;First Aid Kit&lt;/font&gt; ara dona més informació sobre el sistema com la versió, tipus de servidor, model implantat i inclou l&apos;opció d&apos;activar/desactivar el pinning des de APT.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;First Aid Kit:&lt;/font&gt; ara dona més informació sobre el sistema com la versió, tipus de servidor, model implantat i inclou l&apos;opció d&apos;activar/desactivar el pinning des de APT.&lt;/p&gt;</translation>
     </message>
 </context>
 </TS>

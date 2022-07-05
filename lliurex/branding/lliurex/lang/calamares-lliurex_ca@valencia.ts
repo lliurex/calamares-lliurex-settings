@@ -209,11 +209,11 @@
     </message>
     <message>
         <source>NEW EDUCATIONAL RESOURCES (1)</source>
-        <translation>NOUS RECURSOS EDUCATIUS (1)</translation>
+        <translation>NOUS RECURSOS EDUCATIUS</translation>
     </message>
     <message>
         <source>&lt;p&gt;LliureX has been enriched with renewed educational resources and classroom utilities to help teachers in their teaching work:&lt;/p&gt;</source>
-        <translation>&lt;p&gt;LliureX s&apos;ha enriquit amb recursos educatius renovats i utilitats d&apos;aula per a ajudar el professorat en la seua labor docent:&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;LliureX s&apos;ha enriquit amb recursos educatius renovats i utilitats d&apos;aula per a ajudar el professorat en la seua tasca docent:&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Simplayer:&lt;/font&gt;  It is a platform in which multiple resources, educational activities and simulations for the classroom have been integrated.&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;&lt;/div&gt;</source>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <source>NEW EDUCATIONAL RESOURCES (2)</source>
-        <translation>NOUS RECURSOS EDUCATIUS (2)</translation>
+        <translation>NOVES UTILITATS</translation>
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Alea:&lt;/font&gt;  it can be useful for various classroom dynamics: who is the next person to intervene, what is the next question to be answered... The limit is set by our imagination.&lt;/li&gt;</source>

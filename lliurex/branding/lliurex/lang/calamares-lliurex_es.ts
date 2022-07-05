@@ -209,7 +209,7 @@
     </message>
     <message>
         <source>NEW EDUCATIONAL RESOURCES (1)</source>
-        <translation>NUEVOS RECURSOS EDUCATIVOS (1)</translation>
+        <translation>NUEVOS RECURSOS EDUCATIVOS</translation>
     </message>
     <message>
         <source>&lt;p&gt;LliureX has been enriched with renewed educational resources and classroom utilities to help teachers in their teaching work:&lt;/p&gt;</source>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <source>NEW EDUCATIONAL RESOURCES (2)</source>
-        <translation>NUEVOS RECURSOS EDUCATIVOS (2)</translation>
+        <translation>NUEVAS UTILIDADES</translation>
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Alea:&lt;/font&gt;  it can be useful for various classroom dynamics: who is the next person to intervene, what is the next question to be answered... The limit is set by our imagination.&lt;/li&gt;</source>

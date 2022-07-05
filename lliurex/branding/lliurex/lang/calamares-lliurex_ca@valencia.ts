@@ -117,7 +117,7 @@
     </message>
     <message>
         <source>&lt;li&gt;Subscribe &amp; collaborate with LliureX project at GitHub.&lt;/li&gt;</source>
-        <translation>&lt;li&gt;Subscriute i col·labora en la pàgina del projecte LliureX a GitHub.&lt;/li&gt;</translation>
+        <translation>&lt;li&gt;Subscriu-te i col·labora en la pàgina del projecte LliureX a GitHub.&lt;/li&gt;</translation>
     </message>
     <message>
         <source>&lt;li&gt;At our Telegram account https://t.me/comunitat_lliurex&lt;/li&gt;&lt;/ul&gt;</source>

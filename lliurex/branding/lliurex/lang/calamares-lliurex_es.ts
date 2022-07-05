@@ -29,11 +29,11 @@
     </message>
     <message>
         <source>Collaborative Digital Center (CDC)</source>
-        <translation>Centro Digital Colaborativo (CDC)</translation>
+        <translation>CENTRO DIGITAL COLABORATIVO (CDC)</translation>
     </message>
     <message>
         <source>&lt;p&gt;LliureX will be integrated with the Collaborative Digital Center project that has been promoted by the Generalitat Valenciana and that will allow having a single user (digital identity) together with their data available at any center in the Community.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;LliureX se integrará con el proyecto Centro Digital Colaborativo que ha impulsado la Generalitat Valenciana y que permitirá tener un usuario único (identidad digital) junto con sus datos disponibles en cualquier centro de la Comunidad.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;LliureX se integra con el proyecto Centro Digital Colaborativo que ha impulsado la Generalitat Valenciana y que permitirá tener un usuario único (identidad digital) junto con sus datos disponibles en cualquier centro de la Comunidad.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Connected Digital Centers (CDC)</source>
@@ -49,7 +49,7 @@
     </message>
     <message>
         <source>Novelties</source>
-        <translation>Novedades</translation>
+        <translation>NOVEDADES</translation>
     </message>
     <message>
         <source>&lt;p&gt;A lot of effort has been made to modernize the applications own LLiureX, like Java panel, Lliurex Shutdowner and Lliurex flavours selector.&lt;/p&gt;</source>
@@ -69,7 +69,7 @@
     </message>
     <message>
         <source>Getting Help</source>
-        <translation>Obtener ayuda</translation>
+        <translation>OBTENER AYUDA</translation>
     </message>
     <message>
         <source>&lt;div&gt;&lt;h4&gt;</source>
@@ -77,7 +77,7 @@
     </message>
     <message>
         <source>Bassed on KDE Neon</source>
-        <translation>Basado en KDE Neon</translation>
+        <translation>BASADO EN KDE NEON</translation>
     </message>
     <message>
         <source>&lt;p&gt;LliureX develops its full potential from KDE NEON.&lt;/p&gt;</source>
@@ -89,7 +89,7 @@
     </message>
     <message>
         <source>Usage Models</source>
-        <translation>Modos de uso</translation>
+        <translation>MODOS DE USO</translation>
     </message>
     <message>
         <source>&lt;p&gt;Lliurex makes it easy to use with three different models:&lt;/p&gt;</source>
@@ -129,7 +129,7 @@
     </message>
     <message>
         <source>LUMI Interactive Content with H5P</source>
-        <translation>LUMI Contenido interactivo con H5P</translation>
+        <translation>LUMI CONTENIDO INTERACTIVO CON H5P</translation>
     </message>
     <message>
         <source>You can create, edit and view interactive HTML elements (H5P packages) in your desktop environment.</source>
@@ -141,7 +141,7 @@
     </message>
     <message>
         <source>Lliurex Edition Studio</source>
-        <translation>Lliurex Edition Studio</translation>
+        <translation>LLIUREX EDITION STUDIO</translation>
     </message>
     <message>
         <source>We put at your disposal all the necessary resources to generate multimedia didactic material:</source>
@@ -169,7 +169,7 @@
     </message>
     <message>
         <source>3D Print</source>
-        <translation>Impresión 3D</translation>
+        <translation>IMPRESIÓN 3D</translation>
     </message>
     <message>
         <source>In lliurex 21 it will be easier for you to work with 3D printers. Thanks to our zomando you can have the most famous slicer tools at your fingertips:</source>
@@ -305,7 +305,7 @@
     </message>
     <message>
         <source>Novelties - Asamblea</source>
-        <translation>Novedades -ASAMBLEA</translation>
+        <translation>NOVEDADES -ASAMBLEA</translation>
     </message>
     <message>
         <source>&lt;p&gt;Every morning welcome your infant and primary students with an interactive Assembly.&lt;/p&gt;</source>
@@ -329,7 +329,7 @@
     </message>
     <message>
         <source>Novelties - ACCESSIBILITY</source>
-        <translation>Novedades - ACCESIBILIDAD</translation>
+        <translation>NOVEDADES - ACCESIBILIDAD</translation>
     </message>
     <message>
         <source>&lt;p&gt;New tools to help you with accessibility:&lt;/p&gt;</source>
@@ -337,7 +337,7 @@
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Acces Helper&lt;/font&gt; brings you a wide variety of settings:&lt;/li&gt;</source>
-        <translation>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Acces Helper&lt;/font&gt; acerca todos los ajustes posibles:&lt;/li&gt;</translation>
+        <translation>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Acces Helper&lt;/font&gt; acerca una amplia variedad de ajustes:&lt;/li&gt;</translation>
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;Color filters on screen.&lt;/li&gt;</source>
@@ -389,11 +389,11 @@
     </message>
     <message>
         <source>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;LliureX Remote Installer&lt;/font&gt; to the options of scheduling the classroom to be updated, to install an App or run a script, we add the option to install an App from a zomando.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;LliureX Remote Installer&lt;/font&gt;  a las opciones de programar el aula para ser actualizada, para instalar un App o ejecutar un script, añade la opción de instalar una App de un zomando.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;LliureX Remote Installer:&lt;/font&gt;  a las opciones de programar el aula para ser actualizada, para instalar un App o ejecutar un script, añade la opción de instalar una App de un zomando.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;First Aid Kit&lt;/font&gt; now gives more information about the system such as version, server type, implanted model and includes the option to enable / disable pinning from APT.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;First Aid Kit&lt;/font&gt; ahora da más información sobre el sistema como la versión, tipo de servidor, modelo implantado e incluye la opción de activar/desactivar el pinning desde APT.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;First Aid Kit:&lt;/font&gt; ahora da más información sobre el sistema como la versión, tipo de servidor, modelo implantado e incluye la opción de activar/desactivar el pinning desde APT.&lt;/p&gt;</translation>
     </message>
 </context>
 </TS>

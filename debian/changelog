@@ -1,3 +1,11 @@
+calamares-lliurex-settings (0.31) focal; urgency=medium
+
+  * Fixed issue with laptops with apt failing when there is an entry using
+    cdrom:// . Using file:///pool/ instead as /pool ins mounted by us whenever
+    efi is needed. 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 06 Jun 2023 13:54:13 +0200
+
 calamares-lliurex-settings (0.30) focal; urgency=medium
 
   * Trying to fix shim-signed. mount module mounts /cdrom in /pool.

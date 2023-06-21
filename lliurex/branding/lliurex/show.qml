@@ -388,7 +388,7 @@ Presentation
             font.pixelSize:22
             font.bold:true
             text: 
-                  qsTr("Novelties - Zero-Center (1)")
+                  qsTr("Zero-Center (1)")
            
         }
 
@@ -432,7 +432,7 @@ Presentation
             font.pixelSize:22
             font.bold:true
             text: 
-                  qsTr("Novelties - Zero-Center (2)")
+                  qsTr("Zero-Center (2)")
            
         }
 
@@ -479,7 +479,7 @@ Slide {
             font.pixelSize:22
             font.bold:true
             text: 
-                  qsTr("Novelties - Asamblea")
+                  qsTr("Asamblea")
            
         }
 
@@ -525,7 +525,7 @@ Slide {
             font.pixelSize:22
             font.bold:true
             text: 
-                  qsTr("Novelties - ACCESSIBILITY")
+                  qsTr("ACCESSIBILITY")
            
         }
 
@@ -564,25 +564,12 @@ Slide {
             anchors.top:undefined
             anchors.verticalCenter : undefined
         }
-        Text {
-            x:325
-            y:190
-            width:480
-            height:420
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:22
-            font.bold:true
-            text: 
-                  qsTr("Novelties")
-           
-        }
 
         Text {
             x:350
-            y:230
+            y:200
             width:480
-            height:420
+            height:250
             color: "#00508f"
             font.family:"noto"
             font.pixelSize:22
@@ -593,7 +580,7 @@ Slide {
 
         Text {
             x:325
-            y:270
+            y:250
             width:440
             height:450
             wrapMode:Text.WordWrap
@@ -619,24 +606,12 @@ Slide {
             anchors.top:undefined
             anchors.verticalCenter : undefined
         }
-        Text {
-            x:50
-            y:190
-            width:480
-            height:420
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:22
-            font.bold:true
-            text: 
-                  qsTr("<p>Novelties</p>")        
-        }
 
          Text {
             x:60
-            y:230
+            y:200
             width:480
-            height:420
+            height:250
             color: "#00508f"
             font.family:"noto"
             font.pixelSize:20
@@ -647,7 +622,7 @@ Slide {
 
         Text {
             x:50
-            y:270
+            y:250
             width:440
             height:450
             wrapMode:Text.WordWrap
@@ -674,19 +649,6 @@ Slide {
             fillMode: Image.Pad
             anchors.top:undefined
             anchors.verticalCenter : undefined
-        }
-        Text {
-            x:320
-            y:170
-            width:480
-            height:420
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:24
-            font.bold:true
-            text: 
-                  qsTr("Novelties")
-           
         }
 
         Text {

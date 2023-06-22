@@ -108,6 +108,54 @@ Presentation
         height:parent.height
 
         Image {
+            id: wifi_llx21
+            source: "wifi_llx21.png"
+            fillMode: Image.Pad
+            anchors.top:undefined
+            anchors.verticalCenter : undefined
+        }
+        Text {
+            x:30
+            y:170
+            width:470
+            height:400
+            wrapMode:Text.WordWrap
+            color: "#00508f"
+            font.family:"noto"
+            font.pixelSize:20
+            font.bold:true
+            textFormat: Text.RichText
+            text:"</h4></div>"+
+                  qsTr("GVA WI-FI INTEGRATION")+
+            "</h4></div>"
+           
+        }
+
+        Text {
+            x:30
+            y:210
+            width:490
+            height:450
+            wrapMode:Text.WordWrap
+            color: "#25313D"
+            font.family:"noto"
+            font.pixelSize:16
+            textFormat: Text.RichText
+            text:"<div><h4>"+
+            qsTr("<p>LliureX Wifi GVA Control facilitates the use of the Wifi connections officially provided by the GVA for its educational centers, within the framework of the Connected Schools and WifiIES projects.</p>")+
+            qsTr("<p>The possibility of establishing an automatic connection with the corresponding WiFi network (WIFI_ALU for students and WIFI_PROF for teachers) is incorporated using the credentials entered in the login screen, as long as the access is made through the Digital Identity with which they have people who are part of the educational community</p>")+
+            "</h4></div>"        
+        }
+    }
+
+
+    Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+
+        Image {
             id: cdc_llx21
             source: "cdc_llx21.png"
             fillMode: Image.Pad
@@ -271,8 +319,8 @@ Presentation
             font.pixelSize:16
             textFormat: Text.RichText
             text:qsTr("<div><h4>")+
-            qsTr("<p>LliureX improves the experience on touch devices with changes in the interface, adapting to the new times and developing new features that will make it easier to use.</p>")+
-            qsTr("<p>Work is being done on a new flavor, Touch, which brings together all these advances, where gestures, the on-screen keyboard and new menus allow us to interact as friendly as possible.</p>")       
+            qsTr("<p>LliureX Touch is the new LliureX option that facilitates the activation of a virtual keyboard on the screen, similar to the one that we can find in any touch device.</p>")+
+            qsTr("<p>The virtual keyboard (Onboard) comes pre-configured to appear automatically when needed, although it can also be manually shown or hidden.</p>")       
         }
     }
 
@@ -388,7 +436,7 @@ Presentation
             font.pixelSize:22
             font.bold:true
             text: 
-                  qsTr("Zero-Center (1)")
+                  qsTr("ZERO-CENTER")
            
         }
 
@@ -432,7 +480,7 @@ Presentation
             font.pixelSize:22
             font.bold:true
             text: 
-                  qsTr("Zero-Center (2)")
+                  qsTr("ZERO-CENTER")
            
         }
 
@@ -479,7 +527,7 @@ Slide {
             font.pixelSize:22
             font.bold:true
             text: 
-                  qsTr("Asamblea")
+                  qsTr("ASAMBLEA")
            
         }
 
@@ -517,7 +565,7 @@ Slide {
         }
         Text {
             x:50
-            y:140
+            y:160
             width:480
             height:420
             color: "#00508f"
@@ -531,7 +579,7 @@ Slide {
 
         Text {
             x:50
-            y:175
+            y:195
             width:440
             height:450
             wrapMode:Text.WordWrap
@@ -649,6 +697,19 @@ Slide {
             fillMode: Image.Pad
             anchors.top:undefined
             anchors.verticalCenter : undefined
+        }
+
+        Text {
+            x:320
+            y:180
+            width:480
+            height:250
+            color: "#00508f"
+            font.family:"noto"
+            font.pixelSize:20
+            font.bold:true
+            text: 
+                  qsTr("<p>LLIUREX'S TOOLS</p>")           
         }
 
         Text {

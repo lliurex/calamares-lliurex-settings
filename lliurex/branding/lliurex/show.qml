@@ -701,7 +701,7 @@ Slide {
 
         Text {
             x:320
-            y:180
+            y:165
             width:480
             height:250
             color: "#00508f"

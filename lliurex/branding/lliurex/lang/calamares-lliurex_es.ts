@@ -49,7 +49,7 @@
     </message>
     <message>
         <source>Novelties</source>
-        <translation>NOVEDADES</translation>
+        <translation type="vanished">NOVEDADES</translation>
     </message>
     <message>
         <source>&lt;p&gt;A lot of effort has been made to modernize the applications own LLiureX, like Java panel, Lliurex Shutdowner and Lliurex flavours selector.&lt;/p&gt;</source>
@@ -241,11 +241,11 @@
     </message>
     <message>
         <source>&lt;p&gt;LliureX improves the experience on touch devices with changes in the interface, adapting to the new times and developing new features that will make it easier to use.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;LliureX mejora la experiencia en los dispositivos táctiles con cambios en la interfaz, adecuándose a los nuevos tiempos y desarrollando nuevas funcionalidades que facilitarán su uso.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;LliureX mejora la experiencia en los dispositivos táctiles con cambios en la interfaz, adecuándose a los nuevos tiempos y desarrollando nuevas funcionalidades que facilitarán su uso.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Work is being done on a new flavor, Touch, which brings together all these advances, where gestures, the on-screen keyboard and new menus allow us to interact as friendly as possible.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Se está trabajando en un nuevo sabor, Táctil, el cual aúne todos estos avances, donde los gestos, el teclado en pantalla y los nuevos menús nos permitan una interacción lo más amigable posible.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;Se está trabajando en un nuevo sabor, Táctil, el cual aúne todos estos avances, donde los gestos, el teclado en pantalla y los nuevos menús nos permitan una interacción lo más amigable posible.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#00508f&apos;&gt;Desk model:&lt;/font&gt; Any computer can be a LliureX with all its advantages without the need to be in a classroom.&lt;/li&gt;</source>
@@ -261,7 +261,7 @@
     </message>
     <message>
         <source>Novelties - Zero-Center (1)</source>
-        <translation>NOVEDADES - ZERO-CENTER (1)</translation>
+        <translation type="vanished">NOVEDADES - ZERO-CENTER (1)</translation>
     </message>
     <message>
         <source>&lt;p&gt;A more precise categorization that facilitates use, with new blocks: &lt;/p&gt;</source>
@@ -277,7 +277,7 @@
     </message>
     <message>
         <source>Novelties - Zero-Center (2)</source>
-        <translation>NOVEDADES - ZERO-CENTER (2)</translation>
+        <translation type="vanished">NOVEDADES - ZERO-CENTER (2)</translation>
     </message>
     <message>
         <source>&lt;p&gt;Updating of the block of resources:&lt;/p&gt;</source>
@@ -305,7 +305,7 @@
     </message>
     <message>
         <source>Novelties - Asamblea</source>
-        <translation>NOVEDADES -ASAMBLEA</translation>
+        <translation type="vanished">NOVEDADES -ASAMBLEA</translation>
     </message>
     <message>
         <source>&lt;p&gt;Every morning welcome your infant and primary students with an interactive Assembly.&lt;/p&gt;</source>
@@ -329,7 +329,7 @@
     </message>
     <message>
         <source>Novelties - ACCESSIBILITY</source>
-        <translation>NOVEDADES - ACCESIBILIDAD</translation>
+        <translation type="vanished">NOVEDADES - ACCESIBILIDAD</translation>
     </message>
     <message>
         <source>&lt;p&gt;New tools to help you with accessibility:&lt;/p&gt;</source>
@@ -373,7 +373,7 @@
     </message>
     <message>
         <source>&lt;p&gt;Novelties&lt;/p&gt;</source>
-        <translation>&lt;p&gt;NOVEDADES&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;NOVEDADES&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;SYSTEM STABILITY PROTECTION&lt;/p&gt;</source>
@@ -394,6 +394,42 @@
     <message>
         <source>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;First Aid Kit&lt;/font&gt; now gives more information about the system such as version, server type, implanted model and includes the option to enable / disable pinning from APT.&lt;/p&gt;</source>
         <translation>&lt;p&gt;&lt;font style=&apos;color:#00508f&apos;&gt;First Aid Kit:&lt;/font&gt; ahora da más información sobre el sistema como la versión, tipo de servidor, modelo implantado e incluye la opción de activar/desactivar el pinning desde APT.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>GVA WI-FI INTEGRATION</source>
+        <translation>INTEGRACIÓN CON LA GVA WI-FI</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;LliureX Wifi GVA Control facilitates the use of the Wifi connections officially provided by the GVA for its educational centers, within the framework of the Connected Schools and WifiIES projects.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;LliureX Wi-Fi GVA Control facilita el uso de las conexiones Wi-Ti provistas de manera oficial por la GVA para sus centros educativos, dentro del marco de los proyectos Escuelas Conectadas y WiFiES,&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;The possibility of establishing an automatic connection with the corresponding WiFi network (WIFI_ALU for students and WIFI_PROF for teachers) is incorporated using the credentials entered in the login screen, as long as the access is made through the Digital Identity with which they have people who are part of the educational community&lt;/p&gt;</source>
+        <translation>&lt;p&gt;La posibilidad de establecer una conexión automática con la correspondiente red WiFi (WIFI_ALU para alumnado y WIFI_PROF para profesorado) utilizando las credenciales introducidas en la pantalla de inicio de sesión, siempre y cuando el acceso se realice medienta la Identidad Digital con la que cuentan las personas que forman parte de la comunidad educativa.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;LliureX Touch is the new LliureX option that facilitates the activation of a virtual keyboard on the screen, similar to the one that we can find in any touch device.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;LliureX Touch es la nueva opción de LliureX que facilita la activación de un teclado virtual en pantalla, similar al que podemos encontrar en cualquier dispositivo táctil.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;The virtual keyboard (Onboard) comes pre-configured to appear automatically when needed, although it can also be manually shown or hidden.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;El teclado virtual (Onboard) viene preconfigurado para aparecer automáticamente cuando sea necesario, aunque también puede mostrarse u ocultarse de forma manual.&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>ZERO-CENTER</source>
+        <translation>ZERO-CENTER</translation>
+    </message>
+    <message>
+        <source>ASAMBLEA</source>
+        <translation>ASAMBLEA</translation>
+    </message>
+    <message>
+        <source>ACCESSIBILITY</source>
+        <translation>ACCESIBILIDAD</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;LLIUREX&apos;S TOOLS&lt;/p&gt;</source>
+        <translation>HERRAMIENTAS DE LLIUREX</translation>
     </message>
 </context>
 </TS>

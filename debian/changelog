@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.32) focal; urgency=medium
+
+  * New carrusell 2023.
+
+ -- Daniel Duran <daduve@gmail.com>  Thu, 22 Jun 2023 21:45:47 +0200
+
 calamares-lliurex-settings (0.31) focal; urgency=medium
 
   * Fixed issue with laptops with apt failing when there is an entry using

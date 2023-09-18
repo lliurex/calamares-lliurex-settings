@@ -1,4 +1,4 @@
-calamares-lliurex-settings (0.41.1) jammy ; urgency=medium
+calamares-lliurex-settings (0.41.1) jammy; urgency=medium
 
   * Removed /bin/calamares
 

@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.41) jammy; urgency=medium
+
+  * Adding debian relationship with calamares-settings
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 18 Sep 2023 11:19:28 +0200
+
 calamares-lliurex-settings (0.40) jammy; urgency=medium
 
   * First jammy release

@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.42) jammy; urgency=medium
+
+  * removing lupin-casper from uninstall list 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 18 Sep 2023 15:21:48 +0200
+
 calamares-lliurex-settings (0.41.1) jammy; urgency=medium
 
   * Removed /bin/calamares

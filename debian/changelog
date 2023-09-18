@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.43) jammy; urgency=medium
+
+  * efibootloader to lliurex-23
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 18 Sep 2023 15:28:40 +0200
+
 calamares-lliurex-settings (0.42) jammy; urgency=medium
 
   * removing lupin-casper from uninstall list 

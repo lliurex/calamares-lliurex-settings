@@ -4,11 +4,11 @@ componentName: lliurex
 strings:
     productName:         LliureX
     shortProductName:    LliureX
-    version:             21
-    shortVersion:        focal
+    version:             23
+    shortVersion:        jammy
     versionedName:       LliureX
-    shortVersionedName:  LliureX 21
-    bootloaderEntryName: LliureX 21
+    shortVersionedName:  LliureX 23
+    bootloaderEntryName: LliureX 23
     productUrl:          https://lliurex.net
     supportUrl:          http://mestreacasa.gva.es/web/lliurex/forums
     knownIssuesUrl:      https://wiki.ubuntu.com/BionicBeaver/Beta1/LubuntuNext#Known_Problems

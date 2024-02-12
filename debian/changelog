@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.44) jammy; urgency=medium
+
+  * Temporary 23 branding  
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Mon, 12 Feb 2024 11:06:16 +0100
+
 calamares-lliurex-settings (0.43) jammy; urgency=medium
 
   * efibootloader to lliurex-23

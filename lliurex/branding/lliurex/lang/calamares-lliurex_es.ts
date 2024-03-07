@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>While LliureX is installed, this slideshow will show you around its main features.</source>
-        <translation>Mientras se instala LliureX 21, esta presentación te mostrará sus características principales.</translation>
+        <translation>Mientras se instala LliureX 23, esta presentación te mostrará sus características principales.</translation>
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;&lt;font style=&apos;color:#642e3e&apos;&gt;Desk model:&lt;/font&gt; Any computer can be a LliureX with all its advantages without the need to be in a classroom.&lt;/li&gt;</source>
@@ -125,7 +125,7 @@
     </message>
     <message>
         <source>&lt;div&gt;&lt;p&gt;The installation will finish soon. We hope you enjoy LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</source>
-        <translation>&lt;div&gt;&lt;p&gt;La instalación finalizará pronto. Esperamos que disfrutes de LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</translation>
+        <translation type="vanished">&lt;div&gt;&lt;p&gt;La instalación finalizará pronto. Esperamos que disfrutes de LliureX 21.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <source>LUMI Interactive Content with H5P</source>
@@ -173,7 +173,7 @@
     </message>
     <message>
         <source>In lliurex 21 it will be easier for you to work with 3D printers. Thanks to our zomando you can have the most famous slicer tools at your fingertips:</source>
-        <translation>En LliureX 21 te será más fácil trabajar con impresoras 3D. Gracias a nuestro zomando puedes tener las herramientas de corte más famosas a tu alcance:</translation>
+        <translation type="vanished">En LliureX 21 te será más fácil trabajar con impresoras 3D. Gracias a nuestro zomando puedes tener las herramientas de corte más famosas a tu alcance:</translation>
     </message>
     <message>
         <source>Slic3r.</source>
@@ -193,7 +193,7 @@
     </message>
     <message>
         <source>&lt;p&gt;LliureX 21 reinforces its access control system, thus improving the privacy of the stored data and the protection of the system.:&lt;/p&gt;</source>
-        <translation>&lt;p&gt;LliureX 21 refuerza su sistema de control de acceso mejorando así la privacidad de los datos almacenados y la protección del sistema:&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;LliureX 21 refuerza su sistema de control de acceso mejorando así la privacidad de los datos almacenados y la protección del sistema:&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;ul&gt;&lt;li&gt;Login with the &lt;font style=&apos;color:#00508f&apos;&gt;digital identity&lt;/font&gt;  defined within the framework of the &lt;font style=&apos;color:#00508f&apos;&gt;Collaborative Digital Center (CDC)&lt;/font&gt;  project.&lt;/li&gt;</source>
@@ -430,6 +430,18 @@
     <message>
         <source>&lt;p&gt;LLIUREX&apos;S TOOLS&lt;/p&gt;</source>
         <translation>HERRAMIENTAS DE LLIUREX</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;LliureX 23 reinforces its access control system, thus improving the privacy of the stored data and the protection of the system.:&lt;/p&gt;</source>
+        <translation>&lt;p&gt;LliureX 23 refuerza su sistema de control de acceso mejorando así la privacidad de los datos almacenados y la protección del sistema:&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>In lliurex 23 it will be easier for you to work with 3D printers. Thanks to our zomando you can have the most famous slicer tools at your fingertips:</source>
+        <translation>En LliureX 23 te será más fácil trabajar con impresoras 3D. Gracias a nuestro zomando puedes tener las herramientas de corte más famosas a tu alcance:</translation>
+    </message>
+    <message>
+        <source>&lt;div&gt;&lt;p&gt;The installation will finish soon. We hope you enjoy LliureX 23.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</source>
+        <translation>&lt;div&gt;&lt;p&gt;La instalación finalizará pronto. Esperamos que disfrutes de LliureX 23.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</translation>
     </message>
 </context>
 </TS>

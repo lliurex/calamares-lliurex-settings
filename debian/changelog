@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.45) jammy; urgency=medium
+
+  * New branding for Jammy 
+
+ -- Daniel Duran <daduve@gmail.com>  Tue, 09 Apr 2024 16:59:55 +0200
+
 calamares-lliurex-settings (0.44) jammy; urgency=medium
 
   * Temporary 23 branding  

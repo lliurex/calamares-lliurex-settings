@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.47) jammy; urgency=medium
+
+  * Add translations to panel modules label
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 15 May 2024 18:15:21 +0200
+
 calamares-lliurex-settings (0.46) jammy; urgency=medium
 
   * Add translations for apps, services and layouts

@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ -e ../lliurex/branding/lliurex/lang/calamares-lliurex_ca.ts ]; then
+	sed -i -e "s/<\/ts>//ig" ../lliurex/branding/lliurex/lang/calamares-lliurex_ca.ts
+	cat modules_ca.ts >> ../lliurex/branding/lliurex/lang/calamares-lliurex_ca.ts
+	echo "</TS>" >> ../lliurex/branding/lliurex/lang/calamares-lliurex_ca.ts
+fi
+if [ -e ../lliurex/branding/lliurex/lang/calamares-lliurex_ca@valencia.ts ]; then
+	sed -i -e "s/<\/ts>//ig" ../lliurex/branding/lliurex/lang/calamares-lliurex_ca@valencia.ts
+	cat modules_ca@valencia.ts >> ../lliurex/branding/lliurex/lang/calamares-lliurex_ca@valencia.ts
+	echo "</TS>" >> ../lliurex/branding/lliurex/lang/calamares-lliurex_ca@valencia.ts
+fi
+if [ -e ../lliurex/branding/lliurex/lang/calamares-lliurex_es.ts ]; then
+	sed -i -e "s/<\/ts>//ig" ../lliurex/branding/lliurex/lang/calamares-lliurex_es.ts
+	cat modules_es.ts >> ../lliurex/branding/lliurex/lang/calamares-lliurex_es.ts
+	echo "</TS>" >> ../lliurex/branding/lliurex/lang/calamares-lliurex_es.ts
+fi

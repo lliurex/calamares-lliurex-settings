@@ -444,4 +444,19 @@
         <translation>&lt;div&gt;&lt;p&gt;La instal·lació finalitzarà prompte. Esperem que gaudiu de LliureX 23.&lt;/p&gt;&lt;/div&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;</translation>
     </message>
 </context>
+
+<context>
+	<name>LayoutViewStep</name>
+	<message>
+		<source>Layout</source>
+		<translation>Disposició</translation>
+	</message>
+</context>
+<context>
+	<name>AppViewStep</name>
+	<message>
+		<source>Software LliureX</source>
+		<translation>Programari de LliureX</translation>
+	</message>
+</context>
 </TS>

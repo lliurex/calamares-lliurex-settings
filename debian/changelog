@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.51) noble; urgency=medium
+
+  *  Change variables config
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 08 Jul 2024 14:31:33 +0200
+
 calamares-lliurex-settings (0.50.1) noble; urgency=medium
 
   * Fix tabs

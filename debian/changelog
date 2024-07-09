@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.52) noble; urgency=medium
+
+  * Fix mount options 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 09 Jul 2024 14:57:36 +0200
+
 calamares-lliurex-settings (0.51) noble; urgency=medium
 
   *  Change variables config

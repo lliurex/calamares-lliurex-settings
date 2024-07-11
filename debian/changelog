@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.54) noble; urgency=medium
+
+  * Mount systemd resolve to fix problem with resolv.conf 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 11 Jul 2024 12:00:00 +0200
+
 calamares-lliurex-settings (0.53) noble; urgency=medium
 
   * Remove casper logs 

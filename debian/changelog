@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.55) noble; urgency=medium
+
+  * Set to 5000 miliseconds to timeout when update apt cache 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 19 Jul 2024 09:31:58 +0200
+
 calamares-lliurex-settings (0.54) noble; urgency=medium
 
   * Mount systemd resolve to fix problem with resolv.conf 

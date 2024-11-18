@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.56) noble; urgency=medium
+
+  * Adapt style names 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 18 Nov 2024 18:17:43 +0100
+
 calamares-lliurex-settings (0.55) noble; urgency=medium
 
   * Set to 5000 miliseconds to timeout when update apt cache 

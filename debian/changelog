@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.57) noble; urgency=medium
+
+  * Fix mount.conf to allow install in mbr 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 28 Nov 2024 10:45:31 +0100
+
 calamares-lliurex-settings (0.56) noble; urgency=medium
 
   * Adapt style names 

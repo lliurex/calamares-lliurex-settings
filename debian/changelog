@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.58) noble; urgency=medium
+
+  * Add metapackage applications 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 09 Dec 2024 18:04:37 +0100
+
 calamares-lliurex-settings (0.57) noble; urgency=medium
 
   * Fix mount.conf to allow install in mbr 

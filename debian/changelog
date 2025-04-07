@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.61) noble; urgency=medium
+
+  * Move pool configure before bootloader actions
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 07 Apr 2025 16:53:36 +0200
+
 calamares-lliurex-settings (0.60) noble; urgency=medium
 
   * Rename new modules

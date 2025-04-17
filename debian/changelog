@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.63) noble; urgency=medium
+
+  * New style in progress 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 17 Apr 2025 10:53:59 +0200
+
 calamares-lliurex-settings (0.62) noble; urgency=medium
 
   * Install correctly metapackges 

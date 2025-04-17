@@ -4,15 +4,13 @@ componentName: lliurex
 strings:
     productName:         LliureX
     shortProductName:    LliureX
-    version:             23
-    shortVersion:        jammy
+    version:             25
+    shortVersion:        Noble
     versionedName:       LliureX
-    shortVersionedName:  LliureX 23
-    bootloaderEntryName: LliureX 23
+    shortVersionedName:  LliureX 25
+    bootloaderEntryName: LliureX 25
     productUrl:          https://lliurex.net
     supportUrl:          http://mestreacasa.gva.es/web/lliurex/forums
-    knownIssuesUrl:      https://wiki.ubuntu.com/BionicBeaver/Beta1/LubuntuNext#Known_Problems
-    releaseNotesUrl:     https://wiki.ubuntu.com/BionicBeaver/Beta1/LubuntuNext
 windowExpanding:    normal
 windowSize: 800px,520px
 windowPlacement: center

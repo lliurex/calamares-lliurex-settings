@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.67) noble; urgency=medium
+
+  * Add appselector
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 25 Apr 2025 16:25:14 +0200
+
 calamares-lliurex-settings (0.66) noble; urgency=medium
 
   * temporary fix

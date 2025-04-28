@@ -336,7 +336,7 @@ Presentation
         }
         Text {
        		x: resize_x( parent, welcome_background, 100) 
-		y: resize_y( parent, welcome_background, 660)
+		y: resize_y( parent, welcome_background, 650)
             width: resize_x( parent, welcome_background, 1000) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
@@ -351,7 +351,7 @@ Presentation
 
         Text {
        		x: resize_x( parent, welcome_background, 100) 
-		y: resize_y( parent, welcome_background, 760)
+		y: resize_y( parent, welcome_background, 750)
             width: resize_x( parent, welcome_background, 2000) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
@@ -360,7 +360,7 @@ Presentation
             font.family:"noto"
             font.pixelSize:12
             textFormat: Text.RichText
-            text:qsTr("New incorporation of AI applications: ")+
+            text:
             "<ul>"+
             "<li>" + qsTr("<strong>Speech Note:</strong> audio-to-text transcription, text-to-speech, translation, and subtitles")+ "</li>" +
             "<li>" + qsTr("<strong>AI Plugin for Krita:</strong> image generation, inpainting, outpainting, erasing, substitution, pose changes, and more.")+ "</li>" +

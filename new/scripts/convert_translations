@@ -1,0 +1,3 @@
+#!/bin/bash
+lconvert lang/calamares_es.ts -o lang/calamares_es.qm
+lconvert lang/calamares_ca@valencia.ts -o lang/calamares_ca@valencia.qm

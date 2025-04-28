@@ -1,0 +1,31 @@
+---
+componentName: lliurex
+
+strings:
+    productName:         LliureX
+    shortProductName:    LliureX
+    version:             25
+    shortVersion:        Noble
+    versionedName:       LliureX
+    shortVersionedName:  LliureX 25
+    bootloaderEntryName: LliureX 25
+    productUrl:          https://lliurex.net
+    supportUrl:          http://mestreacasa.gva.es/web/lliurex/forums
+windowExpanding:    normal
+windowSize: 800px,630px
+windowPlacement: center
+sidebar: widget
+navigation: widget
+images:
+    productLogo:         "logo.png"
+    productIcon:         "icon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+slideshowAPI: 2
+
+style:
+   SidebarBackground:    "#2f343f"
+   SidebarText:          "#7c89a6"
+   SidebarTextCurrent:    "#ffffff"
+   sidebarBackgroundCurrent:  "#4084d6"

@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.70) noble; urgency=medium
+
+  * Set translations correctly 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 29 Apr 2025 11:17:49 +0200
+
 calamares-lliurex-settings (0.69) noble; urgency=medium
 
   * Add images

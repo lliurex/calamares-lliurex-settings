@@ -1,3 +1,4 @@
+
 ---
 componentName: lliurex
 
@@ -12,7 +13,7 @@ strings:
     productUrl:          https://lliurex.net
     supportUrl:          http://mestreacasa.gva.es/web/lliurex/forums
 windowExpanding:    normal
-windowSize: 800px,520px
+windowSize: 800px,630px
 windowPlacement: center
 sidebar: widget
 navigation: widget

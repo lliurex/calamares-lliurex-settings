@@ -20,9 +20,18 @@ Presentation
         presentation.goToNextSlide();
     }
 
+
+    function resize_x(padre, imagen, x){
+	return x * Math.min(padre.width / imagen.sourceSize.width, padre.height / imagen.sourceSize.height) + (padre.width - imagen.sourceSize.width * Math.min(padre.width / imagen.sourceSize.width , padre.height / imagen.sourceSize.height )) / 2
+    }
+
+    function resize_y(padre, imagen, y ){
+	return y * Math.min(padre.width / imagen.sourceSize.width, padre.height / imagen.sourceSize.height) + (padre.height - imagen.sourceSize.height * Math.min(padre.width / imagen.sourceSize.width, padre.height / imagen.sourceSize.height )) / 2
+    }
+
     Timer {
         id: advanceTimer
-        interval: 20000
+        interval: 500000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -32,27 +41,38 @@ Presentation
         x:0
         y:0
         width:parent.width
-        height:parent.height
+	height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
             id: welcome_background
-            source: "welcome_ubiquity.png"
-            fillMode: Image.Pad
-        }
+	    source: "2.png"
+	    width: parent.width
+	    height: parent.height
+            fillMode: Image.PreserveAspectFit
+    }
         Text {
-            x:335
-            y:170
-            width:430
-            height:510
-            text: 
-                  qsTr("LliureX is an initiative driven by the Department of Education of Regional Government with the purpose of using free software ICTs in the Valencian Education System, so as to allow its users to enjoy a thoughtful and fine user experience.<br/>")+
-                  qsTr("LliureX is a Custom Ubuntu GNU/Linux Distribution (CDD) intended as an operating system for educational institutions.")+"<br/><br/>"+
-                  qsTr("While LliureX is installed, this slideshow will show you around its main features.")
+		x: resize_x( parent, welcome_background, 200) 
+		y: resize_y( parent, welcome_background, 700)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+	    text:
+		"<p>"+
+	    	qsTr("LliureX 25 is an initiative promoted by the Department of Education, Culture, Universities, and Employment of the Generalitat Valenciana to use open-source ICT in the Valencian educational system, allowing users to enjoy a pleasant and simple experience.") +
+	        "</p><p>" + 
+                qsTr("LliureX is a customized distribution of Ubuntu GNU/Linux (CDD) designed as an operating system for educational institutions.")+
+	    	"</p><p>" + 
+                qsTr("While LliureX 25 is being installed, this presentation will show you its main features.") + 
+		    "</p>"
+
             wrapMode: Text.WordWrap
             color:"#25313D"
             font.family:"noto"
-            font.bold:true
-            font.pixelSize:16
+            font.pixelSize:14
         }
     }
 
@@ -61,22 +81,28 @@ Presentation
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
             id: privacidad_llx21
-            source: "privacidad_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
+            source: "3.png"
+            fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
         }
         Text {
-            x:120
-            y:170
-            width:480
-            height:420
-            color: "#00508f"
+		x: resize_x( parent, welcome_background, 200) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:19
+            font.pixelSize:14
             font.bold:true
             text: 
                   qsTr("IMPROVEMENTS IN ACCESS CONTROL AND PRIVACY")
@@ -84,20 +110,23 @@ Presentation
         }
 
         Text {
-            x:120
-            y:210
-            width:490
-            height:450
+       		x: resize_x( parent, welcome_background, 200) 
+		y: resize_y( parent, welcome_background, 770)
+            width: resize_x( parent, welcome_background, 2000) - x
+            height: resize_y( parent, welcome_background, 2100) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:14
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:qsTr("<div><h4>")+
-            qsTr("<p>LliureX 21 reinforces its access control system, thus improving the privacy of the stored data and the protection of the system.:</p>")+
-            qsTr("<ul><li>Login with the <font style='color:#00508f'>digital identity</font>  defined within the framework of the <font style='color:#00508f'>Collaborative Digital Center (CDC)</font>  project.</li>")+
-            qsTr("<li><font style='color:#00508f'>LliureX Access Control:</font>  manages who has access to the equipment, by filtering by groups (teachers, students), for specific people or by center code... so access to each equipment can be restricted according to needs.</li>")+
-            qsTr("<li><font style='color:#00508f'>Guest User:</font>  generic user without password, with volatile data and configuration; at the next login, no data from the previous one will be accessible.</li></ul></h4></div>")         
+            text:
+            qsTr("LliureX 25 reinforces its access control system, thus improving the privacy of stored data and system protection:")+
+            "<ul>" +
+            "<li>" + qsTr("Login with the digital identity.") + "</li>"+
+            "<li>" + qsTr("<strong>LliureX Access Control:</strong> manages who has access to the device through filtering by groups (teachers, students), specific individuals, or center codes. This way, access to each device can be restricted according to specific needs.")+ "</li>"+
+            "<li>" + qsTr("<strong>Guest User:</strong> a generic user without a password, with volatile configuration data; in the next login, no previous session data will be accessible.") + "</li>" +
+            "</ul>"
         }
     }
 
@@ -106,45 +135,53 @@ Presentation
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
             id: wifi_llx21
-            source: "wifi_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
+            source: "4.png"
+            fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
         }
         Text {
-            x:30
-            y:170
-            width:470
-            height:400
-            wrapMode:Text.WordWrap
-            color: "#00508f"
+		x: resize_x( parent, welcome_background, 1400) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+                   wrapMode:Text.WordWrap
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:20
+            font.pixelSize:16
             font.bold:true
             textFormat: Text.RichText
-            text:"</h4></div>"+
-                  qsTr("GVA WI-FI INTEGRATION")+
-            "</h4></div>"
+            text:
+                  qsTr("GVA WI-FI INTEGRATION")
            
         }
 
         Text {
-            x:30
-            y:210
-            width:490
-            height:450
+       		x: resize_x( parent, welcome_background, 1400) 
+		y: resize_y( parent, welcome_background, 790)
+            width: resize_x( parent, welcome_background, 3300) - x
+            height: resize_y( parent, welcome_background, 2100) - y
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:16
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:"<div><h4>"+
-            qsTr("<p>LliureX Wifi GVA Control facilitates the use of the Wifi connections officially provided by the GVA for its educational centers, within the framework of the Connected Schools and WifiIES projects.</p>")+
-            qsTr("<p>The possibility of establishing an automatic connection with the corresponding WiFi network (WIFI_ALU for students and WIFI_PROF for teachers) is incorporated using the credentials entered in the login screen, as long as the access is made through the Digital Identity with which they have people who are part of the educational community</p>")+
-            "</h4></div>"        
+	    text:
+	    "<p>"+
+	    qsTr("LliureX Wi-Fi GVA Control makes it easier to use the Wi-Fi connections officially provided by the GVA for its educational centers, within the framework of the <strong>Connected Schools </strong>and <strong>WIFIES</strong> projects.")+
+	    "</p><p>" +
+            qsTr("It allows automatic connection to the corresponding Wi-Fi network (<strong>WIFI ALU</strong> for students and <strong>WIFI PROF</strong> for teachers) using the credentials entered on the login screen, as long as access is performed through the <strong>Digital Identity</strong> assigned to members of the educational community.") + 
+            "</p>"
         }
     }
 
@@ -154,43 +191,92 @@ Presentation
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
-            id: cdc_llx21
-            source: "cdc_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
+            id: digital_environment
+            source: "5.png"
+            fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
         }
         Text {
-            x:320
-            y:170
-            width:480
-            height:420
-            color: "#00508f"
+	    	x: resize_x( parent, welcome_background, 600) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            color: "#ffffff"
             font.family:"noto"
             font.pixelSize:24
             font.bold:true
             text: 
-                  qsTr("Collaborative Digital Center (CDC)")
+                  qsTr("Our goal is to create a digital environment that is: ")
            
         }
 
         Text {
-            x:340
-            y:210
-            width:440
-            height:450
+	    	x: resize_x( parent, welcome_background, 420) 
+		y: resize_y( parent, welcome_background, 1450)
+            width: resize_x( parent, welcome_background, 1100) - x
+            height: resize_y( parent, welcome_background, 1600) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#ffffff"
             font.family:"noto"
-            font.pixelSize:16
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:"<div><h4>"+
-            qsTr("<p>LliureX will be integrated with the Collaborative Digital Center project that has been promoted by the Generalitat Valenciana and that will allow having a single user (digital identity) together with their data available at any center in the Community.</p>")+
-            qsTr("<p>In addition to email, each user will have storage space in the cloud, the possibility of videoconferencing and other collaborative work tools.</p>")+
-            "</h4></div>"        
+	    horizontalAlignment: Text.AlignHCenter
+            text:
+	    qsTr("<strong>SUSTAINABLE</strong>")+
+	    "<p>"+
+	    qsTr("Promoting the responsible and efficient use of resources.")+
+	    "</p>"
         }
+
+        Text {
+       	    	x: resize_x( parent, welcome_background, 1320) 
+		y: resize_y( parent, welcome_background, 1450)
+            width: resize_x( parent, welcome_background, 2100) - x
+            height: resize_y( parent, welcome_background, 1600) - y
+
+            wrapMode:Text.WordWrap
+            color: "#ffffff"
+            font.family:"noto"
+            font.pixelSize:12
+            textFormat: Text.RichText
+	    horizontalAlignment: Text.AlignHCenter
+            text:
+	    qsTr("<strong>ACCESSIBLE</strong>")+
+	    "<p>" +
+	    qsTr("Ensuring that everyone, regardless of their abilities, can access technology.") +
+	    "</p>"
+          }
+
+        Text {
+       	    	x: resize_x( parent, welcome_background, 2300) 
+		y: resize_y( parent, welcome_background, 1450)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1600) - y
+
+            wrapMode:Text.WordWrap
+            color: "#ffffff"
+            font.family:"noto"
+            font.pixelSize:12
+	    textFormat: Text.RichText
+	    horizontalAlignment: Text.AlignHCenter
+            text:
+	    qsTr("<strong>INCLUSIVE</strong>") + 
+	    "<p>" +
+	    qsTr("Promoting equal opportunities for all users, without discrimination.") +
+	    "</p>"
+        }
+
     }
 
 
@@ -199,41 +285,33 @@ Presentation
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
-            id: simplayer_llx21
-            source: "simplayer_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
-        }
-        Text {
-            x:50
-            y:190
-            width:480
-            height:420
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:24
-            font.bold:true
-            text: 
-                  qsTr("NEW EDUCATIONAL RESOURCES (1)")
-           
+            id: resources_installed
+            source: "6.png"
+            fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
         }
 
         Text {
-            x:50
-            y:230
-            width:440
-            height:450
+       		x: resize_x( parent, welcome_background, 1400) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:16
+            font.pixelSize:14
             textFormat: Text.RichText
-            text:qsTr("<div><h4>")+
-            qsTr("<p>LliureX has been enriched with renewed educational resources and classroom utilities to help teachers in their teaching work:</p>")+
-            qsTr("<li><font style='color:#00508f'>Simplayer:</font>  It is a platform in which multiple resources, educational activities and simulations for the classroom have been integrated.</li></ul></h4></div>")         
+            text:qsTr("LliureX includes a series of pre-installed educational applications for all educational levels, designed to promote the use of ICT in schools. For example: Gimp, VLC Media Player, Audacity, eXeLearning.")
         }
     }
 
@@ -242,42 +320,56 @@ Presentation
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
             id: alea_llx21
-            source: "alea_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
+            source: "7.png"
+            fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
         }
         Text {
-            x:250
-            y:190
-            width:480
-            height:420
-            color: "#00508f"
+       		x: resize_x( parent, welcome_background, 100) 
+		y: resize_y( parent, welcome_background, 650)
+            width: resize_x( parent, welcome_background, 1000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:24
+            font.pixelSize:16
             font.bold:true
             text: 
-                  qsTr("NEW EDUCATIONAL RESOURCES (2)")
+                  qsTr("Artificial Intelligence ")
            
         }
 
         Text {
-            x:250
-            y:230
-            width:440
-            height:450
+       		x: resize_x( parent, welcome_background, 100) 
+		y: resize_y( parent, welcome_background, 750)
+            width: resize_x( parent, welcome_background, 2000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:15
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:qsTr("<div><h4>")+
-            qsTr("<ul><li><font style='color:#00508f'>Alea:</font>  it can be useful for various classroom dynamics: who is the next person to intervene, what is the next question to be answered... The limit is set by our imagination.</li>")+
-            qsTr("<li><font style='color:#00508f'>PintaScreen:</font>  allows you to make marks and annotations on the screen. It can be especially useful in the classroom with interactive displays.</li>")+
-            qsTr("<li><font style='color:#00508f'>Vigilia:</font>  allows you to visually display the noise level in the classroom by changing the color of the screen. It can help students become aware of when the noise level is excessive.</li></ul></h4></div>")         
+            text:
+            "<ul>"+
+            "<li>" + qsTr("<strong>Speech Note:</strong> audio-to-text transcription, text-to-speech, translation, and subtitles")+ "</li>" +
+            "<li>" + qsTr("<strong>AI Plugin for Krita:</strong> image generation, inpainting, outpainting, erasing, substitution, pose changes, and more.")+ "</li>" +
+            "<li>" + qsTr("<strong>Upscayl:</strong> image upscaling with AI.")+ "</li>" +
+            "<li>" + qsTr("<strong>Audacity AI:</strong> music generator, noise removal, and track separation.")+ "</li>" +
+            "<li>" + qsTr("Several apps for working with <strong>LLM</strong>: Ollama, Alpaca, AnythingLLM, PyGPT.")+ "</li>" +
+            "<li>" + qsTr("Several apps for working with voice: <strong>Nerd Dication</strong>, Google Text to Speech")+ "</li>" +
+            "<li>" + qsTr("<strong>ExeLearning</strong> now includes a style that incorporates AI in a toolbar for translation, reading, and accessibility. ")+ "</li>" +
+            "</ul>"
         }
     }
 
@@ -286,22 +378,29 @@ Presentation
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
-            id: tactil_llx21
-            source: "tactil_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
+            id: tactil_llx25
+            source: "8.png"
+            fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
         }
         Text {
-            x:110
-            y:200
-            width:480
-            height:420
-            color: "#00508f"
+       		x: resize_x( parent, welcome_background, 1400) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:24
+            font.pixelSize:16
             font.bold:true
             text: 
                   qsTr("ADAPTATION TO TOUCH DEVICES")
@@ -309,18 +408,22 @@ Presentation
         }
 
         Text {
-            x:110
-            y:240
-            width:440
-            height:450
+       		x: resize_x( parent, welcome_background, 1400) 
+		y: resize_y( parent, welcome_background, 770)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:16
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:qsTr("<div><h4>")+
-            qsTr("<p>LliureX Touch is the new LliureX option that facilitates the activation of a virtual keyboard on the screen, similar to the one that we can find in any touch device.</p>")+
-            qsTr("<p>The virtual keyboard (Onboard) comes pre-configured to appear automatically when needed, although it can also be manually shown or hidden.</p>")       
+	    text:
+	    "<p>" +
+	    qsTr("LliureX Touch is the new option in LliureX that enables the activation of an on-screen virtual keyboard, similar to what can be found on any touch device.")+
+	    "</p><p>" +
+	    qsTr("The virtual keyboard (Onboard) is preconfigured to appear automatically when needed, although it can also be shown or hidden manually.") +
+	    "</p>"
         }
     }
 
@@ -329,22 +432,29 @@ Presentation
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
             id: kde_neon
-            source: "kde_neon.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
+            source: "9.png"
+	    fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
         }
         Text {
-            x:60
-            y:210
-            width:450
-            height:420
-            color: "#00508f"
+       		x: resize_x( parent, welcome_background, 100) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 1000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:24
+            font.pixelSize:16
             font.bold:true
             text: 
                   qsTr("Bassed on KDE Neon")
@@ -352,18 +462,22 @@ Presentation
         }
 
         Text {
-            x:60
-            y:260
-            width:420
-            height:450
+       		x: resize_x( parent, welcome_background, 100) 
+		y: resize_y( parent, welcome_background, 770)
+            width: resize_x( parent, welcome_background, 2000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:16
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:qsTr("<div><h4>")+
-            qsTr("<p>LliureX develops its full potential from KDE NEON.</p>")+
-            qsTr("<p>In this way we have a very solid base such as that offered by Ubuntu LTS and a modern desktop that is constantly updated.</p>")                  
+	    text:
+	    "<p>" +
+	    qsTr("LliureX develops all its potential based on KDE Neon.")+
+	    "</p><p>"+
+	    qsTr("In this way, we have a very solid base, like the one offered by Ubuntu LTS, and a modern desktop that is constantly updated.") +
+	    "</p>"
            
         }
     }
@@ -373,43 +487,41 @@ Presentation
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
-            id: modelos_llx21
-            source: "modelos_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
-        }
-        Text {
-            x:180
-            y:170
-            width:480
-            height:420
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:24
-            font.bold:true
-            text: 
-                  qsTr("Usage Models")
-           
+            id: epoptes_model
+            source: "10.png"
+	    fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
         }
 
         Text {
-            x:180
-            y:210
-            width:440
-            height:450
+       		x: resize_x( parent, welcome_background, 1400) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:16
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:qsTr("<div><h4>")+
-            qsTr("<p>Lliurex makes it easy to use with three different models:</p>")+
-            qsTr("<ul><li><font style='color:#00508f'>Desk model:</font> Any computer can be a LliureX with all its advantages without the need to be in a classroom.</li>")+
-            qsTr("<li><font style='color:#00508f'>Classroom model:</font>  Remote control, mobile profiles, LDAP validation ...</li>")+
-            qsTr("<li><font style='color:#00508f'>Center model:</font>  All the previous advantages, in each independent classroom, but sharing the LDAP, mobile profiles, Mirror ...</li></ul></h4></div>")         
+            text:
+            qsTr("With <strong>Epoptes</strong>, the teacher can:")+
+            "<ul>"+
+            "<li>" + qsTr("Supervise the screens of the classroom computers in real time.")+ "</li>" +
+            "<li>" + qsTr("Control the devices remotely, being able to turn on, off, restart, or lock the students' screens")+ "</li>" +
+            "<li>" + qsTr("Send messages or notifications to the students.")+ "</li>" +
+            "<li>" + qsTr("Execute commands on multiple computers simultaneously, making classroom management easier.")+ "</li>" +
+            "<li>" + qsTr("Share the teacher's screen with students for live demonstrations. ")+ "</li>" +
+            "</ul>"
         }
     }
 
@@ -418,42 +530,48 @@ Presentation
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
-            id: novedades1_llx21
-            source: "novedades1_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
+            id: store
+            source: "11.png"
+	    fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
         }
         Text {
-            x:320
-            y:180
-            width:480
-            height:420
-            color: "#00508f"
+       		x: resize_x( parent, welcome_background, 100) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 1000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:22
+            font.pixelSize:16
             font.bold:true
             text: 
-                  qsTr("ZERO-CENTER")
+                  qsTr("LliureX Store")
            
         }
 
         Text {
-            x:320
-            y:230
-            width:440
-            height:450
+       		x: resize_x( parent, welcome_background, 100) 
+		y: resize_y( parent, welcome_background, 790)
+            width: resize_x( parent, welcome_background, 2000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:16
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:"<div><h4>"+
-            qsTr("<p>A more precise categorization that facilitates use, with new blocks: </p>")+
-            qsTr("<ul><li><font style='color:#00508f'>Multimedia</font> where you will find a wide variety of applications and additional tools and utilities such as Reimage, papeleria... </li>")+
-            qsTr("<li><font style='color:#00508f'>Formative Cycles</font>, administrative Fp, electronics and computing.</li></ul></h4></div>")        
+            text:
+            qsTr("LliureX Store is the app store of the LliureX operating system. It allows users to search for, install, and update programs easily, with a visual interface designed for the educational environment. You can find applications from the Appsedu catalog.")
         }
     }
 
@@ -462,22 +580,29 @@ Presentation
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
-            id: novedades01_llx21
-            source: "novedades01_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
+            id: zero_center
+            source: "12.png"
+	    fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
         }
         Text {
-            x:50
-            y:140
-            width:480
-            height:420
-            color: "#00508f"
+       		x: resize_x( parent, welcome_background, 1400) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:22
+            font.pixelSize:16
             font.bold:true
             text: 
                   qsTr("ZERO-CENTER")
@@ -485,22 +610,69 @@ Presentation
         }
 
         Text {
-            x:50
-            y:180
-            width:440
-            height:450
+       		x: resize_x( parent, welcome_background, 1400) 
+		y: resize_y( parent, welcome_background, 770)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:14
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:"<div><h4>"+
-            qsTr("<p>Updating of the block of resources:</p>")+
-            qsTr("<ul><li><li><font style='color:#00508f'>Educational Resources:</font> renewed didactic resources and applications.</li></li>")+
-            qsTr("<li><li><font style='color:#00508f'>Playful-Educational Resources:</font> to learn by playing.</li></li>")+
-            qsTr("<li><li><font style='color:#00508f'>Children's Resources:</font> focused on the first educational levels.</li></li></ul>")+
-            qsTr("<li>Zero-Center will present a catalog of options adapted to the profile of the person who accesses the system, differentiating between students, teachers and administrators.</li>")+
-            qsTr("<li>This reorganization of Zero-Center allows intuitive access to the installation of applications that until now were found in the Media and Children flavors that, therefore, have been discarded for this review of LliureX.</li></h4></div>")        
+            text:
+            qsTr("The <strong>Zero Center</strong> in LliureX is a tool that centralizes access to system configurations, installations, and specific utilities. It allows access to commands and configures the system to function correctly according to your needs.")
+  
+          }
+    }
+
+Slide {
+        x:0
+        y:0
+        width:parent.width
+        height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
+
+        Image {
+            id: bellscheduller
+            source: "13.png"
+	    fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
+        }
+        Text {
+       		x: resize_x( parent, welcome_background, 100) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 1000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            color: "#023859"
+            font.family:"noto"
+            font.pixelSize:16
+            font.bold:true
+            text: 
+                  qsTr("Bell Scheduler")
+           
+        }
+
+        Text {
+       		x: resize_x( parent, welcome_background, 100) 
+		y: resize_y( parent, welcome_background, 770)
+            width: resize_x( parent, welcome_background, 2000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            wrapMode:Text.WordWrap
+            color: "#023859"
+            font.family:"noto"
+            font.pixelSize:12
+            textFormat: Text.RichText
+            text:
+            qsTr("An application designed to schedule alarms marking the start of classes, breaks, and departures... It plays the sound associated with each alarm. The application can be installed on any LliureX computer connected to the school's sound system.")
         }
     }
 
@@ -509,93 +681,54 @@ Slide {
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
-            id: novedades02_llx21
-            source: "novedades02_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
-        }
-        Text {
-            x:350
-            y:170
-            width:480
-            height:420
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:22
-            font.bold:true
-            text: 
-                  qsTr("ASAMBLEA")
-           
-        }
+            id: ia
+            source: "14.png"
+	    fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
 
+        }
         Text {
-            x:350
-            y:210
-            width:440
-            height:450
-            wrapMode:Text.WordWrap
-            color: "#25313D"
+       		x: resize_x( parent, welcome_background, 1400) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            color: "#023859"
             font.family:"noto"
             font.pixelSize:16
-            textFormat: Text.RichText
-            text:"<div><h4>"+
-            qsTr("<p>Every morning welcome your infant and primary students with an interactive Assembly.</p>")+
-            qsTr("<ul><li><li>Take roll call with the photos of the students.</li></li>")+
-            qsTr("<li><li>Check the day of the week, the date and the season.</li></li>")+
-            qsTr("<li><li>What menu will we have today in the dining room? </li></li></ul>")+
-            qsTr("<li>Edit the main panel with the modules you need to review every day and give this activity a visual plus.</li></h4></div>")        
-        }
-    }
-
-Slide {
-        x:0
-        y:0
-        width:parent.width
-        height:parent.height
-
-        Image {
-            id: novedades03_llx21
-            source: "novedades03_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
-        }
-        Text {
-            x:50
-            y:160
-            width:480
-            height:420
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:22
             font.bold:true
             text: 
-                  qsTr("ACCESSIBILITY")
+                  qsTr("Use AI for your language classes")
            
         }
 
         Text {
-            x:50
-            y:195
-            width:440
-            height:450
+       		x: resize_x( parent, welcome_background, 1400) 
+		y: resize_y( parent, welcome_background, 780)
+            width: resize_x( parent, welcome_background, 3300) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:14
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:"<div><h4>"+
-            qsTr("<p>New tools to help you with accessibility:</p>")+
-            qsTr("<ul><li><font style='color:#00508f'>Acces Helper</font> brings you a wide variety of settings:</li>")+
-            qsTr("<ul><li>Color filters on screen.</li>")+
-            qsTr("<li>Zoom settings.</li>")+
-            qsTr("<li>High visibility pointers.</li>")+
-            qsTr("<li>Manager of files processed by the voice synthesizer.</li>")+
-            qsTr("<li>Custom profiles to restore settings at startup or display settings on different computers.</ul>")+
-            qsTr("<li><font style='color:#00508f'>Access Dock</font>, quick access bar to the most common settings with additional features such as reading through the voice synthesizer using the system language.</li></ul></h4></div>")        
+            text:"You can use <strong>Speech Note</strong> and <strong>Google Text To Speech</strong> to learn languages:"+
+            "<ul>"+
+            "<li>" + qsTr("Generate voice from text in English with different accents: American, British, Australian.") + "</li>" + 
+            "<li>" + qsTr("Read in a different language and see if the AI can understand your sentences, then compare it to the correct intonation.") + "</li>" + 
+            "<li>" + qsTr("Transcribe audios from different sources, even videos, to generate the text.") + "</li>" + 
+            "<li>" + qsTr("Translate between different languages to check the correctness of your exercises.") + "</li>" + 
+            "<li>" + qsTr("Generate subtitles in any language to help you with videos as <strong>listening</strong> exercises. ") + "</li>" + 
+            "</ul>"
         }
     }
 
@@ -604,40 +737,52 @@ Slide {
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
-            id: novedades04_llx21
-            source: "novedades04_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
+            id: lumi_content
+            source: "15.png"
+	    fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
         }
 
         Text {
-            x:350
-            y:200
-            width:480
-            height:250
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:22
-            font.bold:true
-            text: 
-                  qsTr("<p>ONEDRIVE</p>")           
-        }
+       		x: resize_x( parent, welcome_background, 100) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 2000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
 
-        Text {
-            x:325
-            y:250
-            width:440
-            height:450
-            wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
             font.pixelSize:16
+            font.bold:true
+            text: 
+                  qsTr("LUMI INTERACTIVE CONTENT WITH H5P")           
+        }
+
+        Text {
+       		x: resize_x( parent, welcome_background, 100) 
+		y: resize_y( parent, welcome_background, 770)
+            width: resize_x( parent, welcome_background, 2000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            wrapMode:Text.WordWrap
+            color: "#023859"
+            font.family:"noto"
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:"<div><h4>"+
-            qsTr("<ul><li><p>Lliurex facilitates synchronization with your OneDrive space, allowing you to access resources locally without having to log in via the web each time.</p></ul></li></h4></div>")      
+	    text:
+	    "<p>" +
+	    qsTr("You can create, edit, and view interactive educational materials (H5P packages) in your desktop environment.")+
+	    "</p><p>" +
+	    qsTr("Unlike other H5P systems, <strong>Lumi</strong> does not require Moodle, WordPress, or Drupal. You can simply create interactive content and share it with your students by exporting it as an HTML file and uploading it to <strong>Aules</strong>.") + 
+	    "</p>"
         }
     }
 
@@ -646,41 +791,39 @@ Slide {
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
             id: novedades05_llx21
-            source: "novedades05_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
-        }
+            source: "16.png"
+	    fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
 
-         Text {
-            x:60
-            y:200
-            width:480
-            height:250
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:20
-            font.bold:true
-            text: 
-                  qsTr("<p>SYSTEM STABILITY PROTECTION</p>")           
         }
 
         Text {
-            x:50
-            y:250
-            width:440
-            height:450
+       		x: resize_x( parent, welcome_background, 1400) 
+		y: resize_y( parent, welcome_background, 670)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:16
+            font.pixelSize:12
             textFormat: Text.RichText
-            text:"<div><h4>"+
-            qsTr("<ul><li><p>LliureX protects your system by preventing packages that affect its stability from being uninstalled.</p></ul></li>")+
-            qsTr("<ul><li><p>In this way we avoid risks in system administration, both by installing and uninstalling different programs.</p></ul></li></h4></div>")       
+            text:
+            qsTr("In <strong>LliureX 25</strong>, working with 3D printers will be easier for you. Install these design applications from the <strong>LliureX</strong> store:")+
+            "<ul>" +
+            "<li><strong>Slic3r</strong></li>" +
+            "<li><strong>Ultimaker Cura</strong></li>" +
+            "<li><strong>PrusaSlicer</strong></li>" +
+            "</ul>"
         }
     }
 
@@ -690,240 +833,55 @@ Slide {
         y:0
         width:parent.width
         height:parent.height
+	Rectangle{
+		color:"#eff0f1"
+		width: parent.width
+		height: parent.height
+	}
 
         Image {
             id: novedades2_llx21
-            source: "novedades2_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
+            source: "17.png"
+	    fillMode: Image.PreserveAspectFit
+	    width: parent.width
+	    height: parent.height
+
         }
 
         Text {
-            x:320
-            y:165
-            width:480
-            height:250
-            color: "#00508f"
+       		x: resize_x( parent, welcome_background, 400) 
+		y: resize_y( parent, welcome_background, 370)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
+            color: "#023859"
             font.family:"noto"
             font.pixelSize:20
             font.bold:true
             text: 
-                  qsTr("<p>LLIUREX'S TOOLS</p>")           
+                  qsTr("Need help with LliureX")           
         }
 
         Text {
-            x:320
-            y:210
-            width:440
-            height:450
+       		x: resize_x( parent, welcome_background, 200) 
+		y: resize_y( parent, welcome_background, 1470)
+            width: resize_x( parent, welcome_background, 3000) - x
+            height: resize_y( parent, welcome_background, 1100) - y
+
             wrapMode:Text.WordWrap
-            color: "#25313D"
+            color: "#023859"
             font.family:"noto"
-            font.pixelSize:16
+            font.pixelSize:14
             textFormat: Text.RichText
-            text:"<div><h4>"+
-            qsTr("<p><font style='color:#00508f'>LliureX Remote Installer</font> to the options of scheduling the classroom to be updated, to install an App or run a script, we add the option to install an App from a zomando.</p>")+
-            qsTr("<p><font style='color:#00508f'>First Aid Kit</font> now gives more information about the system such as version, server type, implanted model and includes the option to enable / disable pinning from APT.</p>")+
-            "</h4></div>"        
+	    text:
+	    "<p>" + 
+	    qsTr("We offer user support and maintenance for the current version, <strong>LliureX 25</strong>, as well as for the immediate previous version, <strong>LliureX 23</strong>. If you need technical support, open a ticket in <strong>gvaSAI</strong> by following this path:") +
+	    "</p><p>" +
+            qsTr(" Work team > New ticket about Work team > Request and/or Incident > <strong>LliureX</strong>.") +
+	    "</p>"
+
         }
     }
-
-    
-
-
-    Slide {
-        x:0
-        y:0
-        width:parent.width
-        height:parent.height
-
-        Image {
-            id: llxstudio_llx21
-            source: "llxstudio_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
-        }
-        Text {
-            x:330
-            y:170
-            width:480
-            height:420
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:24
-            font.bold:true
-            text: 
-                  qsTr("Lliurex Edition Studio")
-           
-        }
-
-        Text {
-            x:330
-            y:210
-            width:440
-            height:450
-            wrapMode:Text.WordWrap
-            color: "#25313D"
-            font.family:"noto"
-            font.pixelSize:16
-            textFormat: Text.RichText
-            text:"<div><h4>"+"<p>"+
-            qsTr("We put at your disposal all the necessary resources to generate multimedia didactic material:")+"</p>"+
-            "<ul><li>"+qsTr("Audio editors, Audacity, VLC.")+"</li>"+
-            "<li>"+qsTr("Video editors, Cinelerra, OBS Studio, Shotcut...")+"</li>"+
-            "<li>"+qsTr("Format converters, Handbrake, Selena Media Converter.")+"</li>"+
-            "<li>"+qsTr("All necessary codecs.")+"</li></ul>"+
-            "<div><p>"+qsTr("With LliureX you will have a multimedia studio.")+"</p></div>"+
-            "</h4></div>"
-        }
-    }
-
-
-    Slide {
-        x:0
-        y:0
-        width:parent.width
-        height:parent.height
-
-        Image {
-            id: lumi_llx21
-            source: "lumi_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
-        }
-        Text {
-            x:260
-            y:170
-            width:480
-            height:420
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:24
-            font.bold:true
-            text: 
-                  qsTr("LUMI Interactive Content with H5P")
-           
-        }
-
-        Text {
-            x:260
-            y:210
-            width:440
-            height:450
-            wrapMode:Text.WordWrap
-            color: "#25313D"
-            font.family:"noto"
-            font.pixelSize:16
-            textFormat: Text.RichText
-            text:"<div><h4>"+"<p>"+
-            qsTr("You can create, edit and view interactive HTML elements (H5P packages) in your desktop environment.")+"</p>"+
-            "<p>"+qsTr("Unlike all other H5P systems, Lumi does not require Moodle, WordPress, or Drupal. You can simply create interactive content and share it with your students by exporting it as an HTML file and uploading it to Aules.")+"</p>"+
-            "</h4></div>"       
-        }
-    }
-
-    Slide {
-        x:0
-        y:0
-        width:parent.width
-        height:parent.height
-
-        Image {
-            id: print3d_llx21
-            source: "print3d_llx21.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
-        }
-        Text {
-            x:60
-            y:170
-            width:480
-            height:420
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:24
-            font.bold:true
-            text: 
-                  qsTr("3D Print")
-           
-        }
-
-        Text {
-            x:60
-            y:210
-            width:440
-            height:450
-            wrapMode:Text.WordWrap
-            color: "#25313D"
-            font.family:"noto"
-            font.pixelSize:16
-            textFormat: Text.RichText
-            text:"<div><h4>"+"<p>"+
-            qsTr("In lliurex 21 it will be easier for you to work with 3D printers. Thanks to our zomando you can have the most famous slicer tools at your fingertips:")+"</p>"+
-            "<ul><li>"+qsTr("Slic3r.")+"</li>"+
-            "<li>"+qsTr("Ultimaker Cura.")+"</li>"+
-            "<li>"+qsTr("PrusaSlicer.")+"</li></ul>"+
-            "</h4></div>"
-        }
-    }
-
-
-
-    Slide {
-        x:0
-        y:0
-        width:parent.width
-        height:parent.height
-
-        Image {
-            id: finish_background
-            source: "finish_ubiquity.png"
-            fillMode: Image.Pad
-            anchors.top:undefined
-            anchors.verticalCenter : undefined
-        }
-        Text {
-            x:50
-            y:130
-            width:430
-            height:500
-            color: "#00508f"
-            font.family:"noto"
-            font.pixelSize:24
-            font.bold:true
-            text: 
-                  qsTr("Getting Help")
-           
-        }
-
-        Text {
-            x:50
-            y:180
-            width:470
-            height:500
-            wrapMode:Text.WordWrap
-            color: "#25313D"
-            font.family:"noto"
-            font.pixelSize:16
-            textFormat: Text.RichText
-            text:qsTr("<div><h4>")+
-            qsTr("<p>If you need help, you can contact us:</p>")+
-            qsTr("<ul><li>Using our forum webpage at Mestre a casa https://mestreacasa.gva.es/web/lliurex/forums</li>")+
-            qsTr("<li>Subscribe & collaborate with LliureX project at GitHub.</li>")+
-            qsTr("<li>At our Telegram account https://t.me/comunitat_lliurex</li></ul>")+
-            qsTr("<div><p>The installation will finish soon. We hope you enjoy LliureX 21.</p></div></h4></div></div>")
-
-                  
-           
-        }
-    }
-
-   
-
 
     // When this slideshow is loaded as a V1 slideshow, only
     // activatedInCalamares is set, which starts the timer (see above).

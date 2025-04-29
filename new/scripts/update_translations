@@ -1,0 +1,4 @@
+#!/bin/bash
+
+lupdate show.qml -ts lang/calamares_es.ts
+lupdate show.qml -ts lang/calamares_ca@valencia.ts

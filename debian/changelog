@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.69) noble; urgency=medium
+
+  * Add images
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 29 Apr 2025 10:03:46 +0200
+
 calamares-lliurex-settings (0.68) noble; urgency=medium
 
   * Add lliurex 25 slides 

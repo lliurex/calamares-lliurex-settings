@@ -303,7 +303,7 @@ Presentation
         Text {
        		x: resize_x( parent, welcome_background, 1400) 
 		y: resize_y( parent, welcome_background, 670)
-            width: resize_x( parent, welcome_background, 3000) - x
+            width: resize_x( parent, welcome_background, 3300) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
             wrapMode:Text.WordWrap
@@ -410,7 +410,7 @@ Presentation
         Text {
        		x: resize_x( parent, welcome_background, 1400) 
 		y: resize_y( parent, welcome_background, 770)
-            width: resize_x( parent, welcome_background, 3000) - x
+            width: resize_x( parent, welcome_background, 3300) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
             wrapMode:Text.WordWrap
@@ -505,7 +505,7 @@ Presentation
         Text {
        		x: resize_x( parent, welcome_background, 1400) 
 		y: resize_y( parent, welcome_background, 670)
-            width: resize_x( parent, welcome_background, 3000) - x
+            width: resize_x( parent, welcome_background, 3300) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
             wrapMode:Text.WordWrap
@@ -612,7 +612,7 @@ Presentation
         Text {
        		x: resize_x( parent, welcome_background, 1400) 
 		y: resize_y( parent, welcome_background, 770)
-            width: resize_x( parent, welcome_background, 3000) - x
+            width: resize_x( parent, welcome_background, 3300) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
             wrapMode:Text.WordWrap
@@ -809,7 +809,7 @@ Slide {
         Text {
        		x: resize_x( parent, welcome_background, 1400) 
 		y: resize_y( parent, welcome_background, 670)
-            width: resize_x( parent, welcome_background, 3000) - x
+            width: resize_x( parent, welcome_background, 3300) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
             wrapMode:Text.WordWrap

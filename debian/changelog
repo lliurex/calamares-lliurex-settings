@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.72) noble; urgency=medium
+
+  * Add margin to slides
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 02 May 2025 09:26:17 +0200
+
 calamares-lliurex-settings (0.71) noble; urgency=medium
 
   * Add more locales 

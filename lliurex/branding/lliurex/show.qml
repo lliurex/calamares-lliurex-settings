@@ -309,7 +309,7 @@ Presentation
             wrapMode:Text.WordWrap
             color: "#023859"
             font.family:"noto"
-            font.pixelSize:14
+            font.pixelSize:12
             textFormat: Text.RichText
             text:qsTr("LliureX includes a series of pre-installed educational applications for all educational levels, designed to promote the use of ICT in schools. For example: Gimp, VLC Media Player, Audacity, eXeLearning.")
         }

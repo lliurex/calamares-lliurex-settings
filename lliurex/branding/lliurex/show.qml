@@ -721,7 +721,7 @@ Slide {
             font.family:"noto"
             font.pixelSize:12
             textFormat: Text.RichText
-            text:"You can use <strong>Speech Note</strong> and <strong>Google Text To Speech</strong> to learn languages:"+
+            text: qsTr("You can use <strong>Speech Note</strong> and <strong>Google Text To Speech</strong> to learn languages:")+
             "<ul>"+
             "<li>" + qsTr("Generate voice from text in English with different accents: American, British, Australian.") + "</li>" + 
             "<li>" + qsTr("Read in a different language and see if the AI can understand your sentences, then compare it to the correct intonation.") + "</li>" + 

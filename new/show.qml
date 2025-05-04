@@ -31,7 +31,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 500000
+        interval: 20000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -303,13 +303,13 @@ Presentation
         Text {
        		x: resize_x( parent, welcome_background, 1400) 
 		y: resize_y( parent, welcome_background, 670)
-            width: resize_x( parent, welcome_background, 3000) - x
+            width: resize_x( parent, welcome_background, 3300) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
             wrapMode:Text.WordWrap
             color: "#023859"
             font.family:"noto"
-            font.pixelSize:14
+            font.pixelSize:12
             textFormat: Text.RichText
             text:qsTr("LliureX includes a series of pre-installed educational applications for all educational levels, designed to promote the use of ICT in schools. For example: Gimp, VLC Media Player, Audacity, eXeLearning.")
         }
@@ -410,7 +410,7 @@ Presentation
         Text {
        		x: resize_x( parent, welcome_background, 1400) 
 		y: resize_y( parent, welcome_background, 770)
-            width: resize_x( parent, welcome_background, 3000) - x
+            width: resize_x( parent, welcome_background, 3300) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
             wrapMode:Text.WordWrap
@@ -505,7 +505,7 @@ Presentation
         Text {
        		x: resize_x( parent, welcome_background, 1400) 
 		y: resize_y( parent, welcome_background, 670)
-            width: resize_x( parent, welcome_background, 3000) - x
+            width: resize_x( parent, welcome_background, 3300) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
             wrapMode:Text.WordWrap
@@ -612,7 +612,7 @@ Presentation
         Text {
        		x: resize_x( parent, welcome_background, 1400) 
 		y: resize_y( parent, welcome_background, 770)
-            width: resize_x( parent, welcome_background, 3000) - x
+            width: resize_x( parent, welcome_background, 3300) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
             wrapMode:Text.WordWrap
@@ -721,7 +721,7 @@ Slide {
             font.family:"noto"
             font.pixelSize:12
             textFormat: Text.RichText
-            text:"You can use <strong>Speech Note</strong> and <strong>Google Text To Speech</strong> to learn languages:"+
+            text: qsTr("You can use <strong>Speech Note</strong> and <strong>Google Text To Speech</strong> to learn languages:")+
             "<ul>"+
             "<li>" + qsTr("Generate voice from text in English with different accents: American, British, Australian.") + "</li>" + 
             "<li>" + qsTr("Read in a different language and see if the AI can understand your sentences, then compare it to the correct intonation.") + "</li>" + 
@@ -809,7 +809,7 @@ Slide {
         Text {
        		x: resize_x( parent, welcome_background, 1400) 
 		y: resize_y( parent, welcome_background, 670)
-            width: resize_x( parent, welcome_background, 3000) - x
+            width: resize_x( parent, welcome_background, 3300) - x
             height: resize_y( parent, welcome_background, 1100) - y
 
             wrapMode:Text.WordWrap

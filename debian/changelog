@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.74.1) noble; urgency=medium
+
+  * Add diversion to calamares launcher
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 10 Jul 2025 13:42:41 +0200
+
 calamares-lliurex-settings (0.74) noble; urgency=medium
 
   * Add oem support 

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if grep -Fq 'oem-config/enable=true' /proc/cmdline ; then
+	cp /usr/share/calamares-oem/oem/modules/packages.conf /etc/calamares/modules
+	rc=0
+	lsblk -o label,partlabel | grep -q chboot || rc=1
+	if [ "$rc" = "1" ]; then
+		cp /usr/share/calamares-oem/oem/modules/partition.conf /etc/calamares/modules
+	else
+		cp /usr/share/calamares-oem/standar/modules/partition.conf /etc/calamares/modules
+	fi
+fi
+exec /usr/bin/_calamares "$@"

@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.76) noble; urgency=medium
+
+  * Modify chboot partition size
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 14 Jul 2025 15:40:49 +0200
+
 calamares-lliurex-settings (0.75) noble; urgency=medium
 
   * enhances about oem process

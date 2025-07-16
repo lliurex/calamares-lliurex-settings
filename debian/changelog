@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.51) jammy; urgency=medium
+
+  * Modify size chboot partition
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 16 Jul 2025 12:25:20 +0200
+
 calamares-lliurex-settings (0.50) jammy; urgency=medium
 
   * Add diversion launcher

@@ -2,6 +2,7 @@
 
 if grep -Fq 'oem-config/enable=true' /proc/cmdline ; then
 	cp /usr/share/calamares-oem/oem/modules/packages.conf /etc/calamares/modules
+	cp /usr/share/calamares-oem/oem/settings.conf /etc/calamares/
 	rc=0
 	lsblk -o label,partlabel | grep -q chboot || rc=1
 	if [ "$rc" = "1" ]; then

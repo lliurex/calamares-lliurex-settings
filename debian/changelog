@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.52) jammy; urgency=medium
+
+  * Fix chromium install by snap 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Sun, 20 Jul 2025 23:07:45 +0200
+
 calamares-lliurex-settings (0.51) jammy; urgency=medium
 
   * Modify size chboot partition

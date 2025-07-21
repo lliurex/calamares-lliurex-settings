@@ -9,3 +9,5 @@ SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT gnome-42-2204/classic=lates
 SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT gtk-common-themes/classic=latest/stable
 
 snap_validate_seed $CALAMARES_ROOT
+
+rm -r $CALAMARES_ROOT/etc/apt/sources.list.d/local.list

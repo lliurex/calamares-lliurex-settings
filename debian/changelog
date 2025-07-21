@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.54) jammy; urgency=medium
+
+  * Add forgotten slash
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 21 Jul 2025 10:09:40 +0200
+
 calamares-lliurex-settings (0.53) jammy; urgency=medium
 
   * Calamares wrapper copy chromium settings

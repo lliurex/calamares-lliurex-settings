@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.55) jammy; urgency=medium
+
+  * Install with cdrom repo lliurex-meta-gva
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 21 Jul 2025 13:40:59 +0200
+
 calamares-lliurex-settings (0.54) jammy; urgency=medium
 
   * Add forgotten slash

@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.53) jammy; urgency=medium
+
+  * Calamares wrapper copy chromium settings
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 21 Jul 2025 09:43:50 +0200
+
 calamares-lliurex-settings (0.52) jammy; urgency=medium
 
   * Fix chromium install by snap 

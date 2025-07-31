@@ -1,3 +1,10 @@
+calamares-lliurex-settings (0.79) noble; urgency=medium
+
+  * Calamares label menu has contrast with white background color
+  * Efi entry on efi folder now is lliurex25 inside lliurex-23 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 31 Jul 2025 10:57:01 +0200
+
 calamares-lliurex-settings (0.78) noble; urgency=medium
 
   * Configure correctly minipool 

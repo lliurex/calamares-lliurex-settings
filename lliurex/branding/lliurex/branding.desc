@@ -28,5 +28,5 @@ slideshowAPI: 2
 style:
    SidebarBackground:    "#2f343f"
    SidebarText:          "#7c89a6"
-   SidebarTextCurrent:    "#ffffff"
+   SidebarTextCurrent:    "#2f343f"
    sidebarBackgroundCurrent:  "#4084d6"

@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.56) jammy; urgency=medium
+
+  * Remove nomodeset from calamares settings
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 12 Nov 2025 08:57:32 +0100
+
 calamares-lliurex-settings (0.55) jammy; urgency=medium
 
   * Install with cdrom repo lliurex-meta-gva

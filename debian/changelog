@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.57) jammy; urgency=medium
+
+  * Fix snap chromium
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 18 Nov 2025 12:42:04 +0100
+
 calamares-lliurex-settings (0.56) jammy; urgency=medium
 
   * Remove nomodeset from calamares settings

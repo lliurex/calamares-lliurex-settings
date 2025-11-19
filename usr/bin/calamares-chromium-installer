@@ -3,10 +3,12 @@ source /usr/share/calamares-oem/libs/functions
 CALAMARES_ROOT="$1"
 
 snap_prepare $CALAMARES_ROOT
+SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT core24/classic=latest/stable
 SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT chromium/classic=latest/stable
 SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT cups/classic=latest/stable
-SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT gnome-42-2204/classic=latest/stable
+SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT gnome-46-2404/classic=latest/stable
 SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT gtk-common-themes/classic=latest/stable
+SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT mesa-2404/classic=latest/stable
 
 snap_validate_seed $CALAMARES_ROOT
 mkdir $CALAMARES_ROOT/snap

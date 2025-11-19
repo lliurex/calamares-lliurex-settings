@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.58) jammy; urgency=medium
+
+  * Update chromium installer 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 19 Nov 2025 11:52:56 +0100
+
 calamares-lliurex-settings (0.57) jammy; urgency=medium
 
   * Fix snap chromium

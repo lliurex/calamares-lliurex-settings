@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.59) jammy; urgency=medium
+
+  * Replace snap chromium installer by apt package installation
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 21 Jan 2026 16:22:03 +0100
+
 calamares-lliurex-settings (0.58) jammy; urgency=medium
 
   * Update chromium installer 

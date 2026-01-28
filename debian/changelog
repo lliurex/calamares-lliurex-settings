@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.60) jammy; urgency=medium
+
+  * Install chromium package by pool
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 28 Jan 2026 18:08:11 +0100
+
 calamares-lliurex-settings (0.59) jammy; urgency=medium
 
   * Replace snap chromium installer by apt package installation

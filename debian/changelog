@@ -1,3 +1,9 @@
+calamares-lliurex-settings (0.61) jammy; urgency=medium
+
+  * Remove local pool entry on apt sources.list.d 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 02 Feb 2026 18:30:51 +0100
+
 calamares-lliurex-settings (0.60) jammy; urgency=medium
 
   * Install chromium package by pool

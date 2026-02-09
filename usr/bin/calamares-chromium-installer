@@ -1,16 +1,9 @@
 #!/bin/bash
-source /usr/share/calamares-oem/libs/functions
 CALAMARES_ROOT="$1"
 
-snap_prepare $CALAMARES_ROOT
-SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT core24/classic=latest/stable
-SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT chromium/classic=latest/stable
-SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT cups/classic=latest/stable
-SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT gnome-46-2404/classic=latest/stable
-SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT gtk-common-themes/classic=latest/stable
-SNAP_NO_VALIDATE_SEED=1 snap_preseed $CALAMARES_ROOT mesa-2404/classic=latest/stable
+cat << EOF > "$CALAMARES_ROOT"/var/lib/n4d/oneshot/chromium-installer
+#!/bin/bash
+zero-center set-configured zero-lliurex-chromium
+EOF
 
-snap_validate_seed $CALAMARES_ROOT
-mkdir $CALAMARES_ROOT/snap
-rsync -ax /snap/* $CALAMARES_ROOT/snap
-rm -r $CALAMARES_ROOT/etc/apt/sources.list.d/local.list
+chmod +x "$CALAMARES_ROOT"/var/lib/n4d/oneshot/chromium-installer

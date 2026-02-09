@@ -1,3 +1,12 @@
+calamares-lliurex-settings (0.62) jammy; urgency=medium
+
+  * Add lliurex-auto-upgrade tag
+  * Fix chromium zero-center launcher
+  * Mount local pool for all installation types
+  * Installation more clean on disk
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 09 Feb 2026 18:26:30 +0100
+
 calamares-lliurex-settings (0.61) jammy; urgency=medium
 
   * Remove local pool entry on apt sources.list.d 
